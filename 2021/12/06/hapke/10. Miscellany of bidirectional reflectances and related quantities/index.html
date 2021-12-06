@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="10 A miscellany of bidirectional reflectances and related quantities 补充知识：辐射度量  辐射能量（Radiant energy,Q）：电磁辐射的能量，J(焦耳)   使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动   辐射通量(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chapter 10">
+<meta property="og:url" content="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="10 A miscellany of bidirectional reflectances and related quantities 补充知识：辐射度量  辐射能量（Radiant energy,Q）：电磁辐射的能量，J(焦耳)   使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动   辐射通量(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/1500846/1614828169002-539ac1ac-aa36-4e73-8f5c-5c9044e8a6b9.png#align=left&amp;display=inline&amp;height=582&amp;margin=%5Bobject%20Object%5D&amp;name=10.1bidirectionalReflectence.png&amp;originHeight=582&amp;originWidth=1492&amp;size=83460&amp;status=done&amp;style=none&amp;width=1492">
+<meta property="og:image" content="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/09/09/image-20191203192523571-1599656007275.png#align=left&amp;display=inline&amp;height=1080&amp;margin=%5Bobject%20Object%5D&amp;originHeight=1080&amp;originWidth=1440&amp;status=done&amp;style=none&amp;width=1440">
+<meta property="article:published_time" content="2021-12-06T07:31:31.000Z">
+<meta property="article:modified_time" content="2021-12-06T07:36:52.504Z">
+<meta property="article:author" content="Lin Guo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927">
+
+<link rel="canonical" href="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Chapter 10 | Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lin Guo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Chapter 10
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-12-06 15:31:31 / 修改时间：15:36:52" itemprop="dateCreated datePublished" datetime="2021-12-06T15:31:31+08:00">2021-12-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="10-A-miscellany-of-bidirectional-reflectances-and-related-quantities"><a href="#10-A-miscellany-of-bidirectional-reflectances-and-related-quantities" class="headerlink" title="10 A miscellany of bidirectional reflectances and related quantities"></a>10 A miscellany of bidirectional reflectances and related quantities</h2><blockquote>
+<p><strong>补充知识</strong>：<br><strong>辐射度量</strong></p>
+<ol>
+<li><strong>辐射能量</strong>（Radiant energy,Q）：电磁辐射的能量，J(焦耳)</li>
+</ol>
+<blockquote>
+<p>使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动</p>
+</blockquote>
+<ol>
+<li><strong>辐射通量</strong>(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（power）</li>
+</ol>
+<script type="math/tex; mode=display">
+\Phi= dQ/dt</script><ol>
+<li><strong>辐射通量密度</strong>:单位面积上的辐射通量,$W/m^2$</li>
+</ol>
+<script type="math/tex; mode=display">
+d\Phi/dS</script><ol>
+<li><strong>辐射照度</strong>（Irradiance,E);单位面积被辐射物体所接收的辐射通量</li>
+</ol>
+<script type="math/tex; mode=display">
+E = d\Phi/dS</script><ul>
+<li><strong>辐照度衰减</strong>：</li>
+</ul>
+<script type="math/tex; mode=display">
+E^\prime = {\Phi \over 4\pi r^2}</script><ul>
+<li><strong>兰伯特余弦定律</strong>：表面辐照度与光方向和表面法线夹角的余弦值成正比(也就是说只要在表面法线方向的的辐射度分量)。</li>
+<li><strong>辐射出射度</strong>（Radiant exitance）:单位面积上辐射源辐射出的辐射通量</li>
+</ul>
+<script type="math/tex; mode=display">
+M =d\Phi/dS</script><ol>
+<li><strong>辐射强度</strong>（Radiant Intensity）:点辐射源在单位立体角内的辐射通量,$W/Sr$</li>
+</ol>
+<script type="math/tex; mode=display">
+I = d\Phi/d\Omega</script><blockquote>
+<p>对各向同性点源，$I = {\Phi \over 4\pi}$; $W/Sr$</p>
+</blockquote>
+<ol>
+<li><strong>辐射</strong>（Radiance,也称亮度，luminance,L）:辐射源在单位投影面积上、单位立体角内的辐射通量，</li>
+</ol>
+<script type="math/tex; mode=display">
+L(\theta) = \frac{d^2\Phi}{d\Omega dA \cos\theta}=\frac{dM}{d\Omega \cos \theta}</script><p><strong>最重要概念</strong></p>
+<ul>
+<li>Radiant Flux,辐射通量，光通量，辐射功率；在单位时间穿过截面的光能；单位是W，瓦特</li>
+<li>(Radiant) Intensity, 辐射强度，发光强度；每单位立体角的辐射通量；单位  ，瓦特每球面度。</li>
+<li>Radiance, 光亮度，辐亮度，辐射率；每单位立体角每单位投影面积的辐射通量；瓦特每球面度每平方米。</li>
+<li>Irradiance, 辐照度，辉度，辐射照度；单位时间内到达单位面积的辐射通量，也就是辐射通量对于面积的密度；瓦特每平方米。</li>
+</ul>
+</blockquote>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927" alt="辐射度量概念.jpg"><br>详情可参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/139468429">辐射度量学 - 知乎</a></p>
+<h3 id="10-2-some-commonly-encountered-bidirectional-reflectance-quantities"><a href="#10-2-some-commonly-encountered-bidirectional-reflectance-quantities" class="headerlink" title="10.2  some commonly encountered bidirectional reflectance quantities"></a>10.2  some commonly encountered bidirectional reflectance quantities</h3><p><strong>the bidirectional reflectance $r(i,e,g)$</strong></p>
+<script type="math/tex; mode=display">
+r(i,e,g)= K\frac{\varpi}{4\pi}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]</script><blockquote>
+<p>the bidirectional reflectance is the ratio of the radiance scattered from the surface of a medium into a given direction to the collimated power incident <strong>per area perpendicular to the direction of the incidence.</strong></p>
+<p>K is the porosity coefficients.</p>
+<p>孔隙率：土壤中孔隙体积与总体积的比值。</p>
+<p>$r(i,e,g)=\dfrac{emit_radiance}{incident_irradiance}=\dfrac{I_e}{J}.$</p>
+</blockquote>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/png/1500846/1614828169002-539ac1ac-aa36-4e73-8f5c-5c9044e8a6b9.png#align=left&amp;display=inline&amp;height=582&amp;margin=%5Bobject%20Object%5D&amp;name=10.1bidirectionalReflectence.png&amp;originHeight=582&amp;originWidth=1492&amp;size=83460&amp;status=done&amp;style=none&amp;width=1492" alt="10.1bidirectionalReflectence.png"></p>
+<blockquote>
+<p>X.-J. Huang et al.: Analysis Based on the Hapke Model and LS Model</p>
+</blockquote>
+<p><strong>the bidirectional-reflectance distribution function (BDRF)</strong></p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+BDRF(i,e,g)=&\frac{I}{J\mu_0}=\frac{r(i,e,g)}{\mu_0}\\
+=&K\frac{\varpi}{4\pi}\frac{1}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]
+\end{aligned}</script><blockquote>
+<p>the bidirectional-reflectance distribution function (BDRF) is the ratio of the radiance scattered from the surface of a medium into a given direction to <strong>the collimated power incident on a unit area of the surface.</strong></p>
+</blockquote>
+<p><strong>the reflectance factor (REFF)</strong>, is also called the <strong>_reflectance coefficient (or, apparent reflectance)._</strong></p>
+<script type="math/tex; mode=display">
+\small REFF(i,e,g)= \pi r(i,e,g)/\mu_0=K\frac{\varpi}{4}\frac{1}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]</script><blockquote>
+<p>the reflectance factor is the ratio of the reflectance of the surface to that of  a <strong>perfectly diffuse surface</strong> under <strong>the same conditions of illumination and measurement</strong>.<br>the bidirectional reflectance of a perfect Lambert surface is</p>
+<p>$r_L =\mu_0/\pi$</p>
+<p>for details(8.5.1 Lambert’s law)</p>
+<p>reflectance <strong>factor</strong>: 即测量到的反射率$I/J$与相同光照条件下的朗伯体的反射率$\cos i/\pi$之比。</p>
+</blockquote>
+<p><strong>the radiance factor (RADF)</strong>, is also denoted by <strong>I/F</strong>.</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+RADF(i,e,g)=&\frac{I}{F}(i,e,g)=\pi r(i,e,g)
+\\=&K\frac{\varpi}{4}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]
+\end{aligned}</script><blockquote>
+<p>the radiance factor is the ratio of the bidirectional reflectance of a surface to that of a perfectly diffuse surface illuminated at</p>
+<script type="math/tex; mode=display">
+i = 0,r_L=1/\pi</script><p>, rather than at the same angle of illumination as the sample.</p>
+<p>$F=J/\pi$, Chandrasekhar (1960).</p>
+<p>Shkuratov,2011称：在老文章里，也称<strong>apparent albedo</strong>.（不够准确，权当历史原因造成）。</p>
+</blockquote>
+<p><strong>the relative reflectance ,</strong></p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\Gamma(i,e,g)=&\frac{r(Sample)}{r(standard\_surface)}\\
+= &\frac{K_{Sa}}{K_{St}}\varpi\frac{P(g)+H(\mu_0/K_{Sa},\varpi)H(\mu/K_{Sa},\varpi)-1}{H(\mu_0/K_{St},\varpi=1)H(\mu/K_{St},\varpi=1)}
+\end{aligned}</script><blockquote>
+<p>the relative reflectance of a particulate sample is the reflectance relative to that of standard surface consisting of an infinitely thick particulate medium of nonabsorbing, isotropic scatterers, with negligible opposition effect, and illuminated and viewed at the same geometry as the sample.</p>
+<p>if</p>
+<script type="math/tex; mode=display">
+K_{Sa}=K_{St}\approx 1</script><p>, and the H functions</p>
+<script type="math/tex; mode=display">
+H(x)\simeq \frac{1+2x}{1+2\gamma x}</script><p>, the relative bidirectional reflectance of a sample of isotropic scatterers measured outside of the opposition peak is given by</p>
+<script type="math/tex; mode=display">
+\Gamma(i,e,g\gg h)=\frac{\varpi}{(1+2\gamma\mu_0)(1+2\gamma\mu)}</script></blockquote>
+<p><strong>the reduced reflectance $r_r(i,e,g)$</strong></p>
+<script type="math/tex; mode=display">
+r_r(i,e,g) =\frac{I/F}{\mu_0/(\mu_0 +\mu)}</script><blockquote>
+<p>the reduced reflectance  is defined as the radiance factor divided by the Lommel-Seeliger factor.</p>
+</blockquote>
+<p>计算过程中通常还需要校正太阳距离：</p>
+<ul>
+<li>加州理工大学，喷气动力实验室，JPL：<a target="_blank" rel="noopener" href="https://ssd.jpl.nasa.gov/horizons.cgi">https://ssd.jpl.nasa.gov/horizons.cgi</a> （地平线系统！）</li>
+</ul>
+<p><strong>补充知识</strong></p>
+<blockquote>
+<p><strong>反射率波谱</strong></p>
+<ul>
+<li>方向-方向反射率波谱（晴天，野外便携式地物光谱仪）</li>
+<li><strong>半球 -方向反射率波谱</strong>（阴天）</li>
+<li>方向-半球反射率波谱（积分球，波谱测定器）;directional-hemispherical reflectance.</li>
+<li>半球- 半球反射率波谱（等效于反照率光谱）</li>
+</ul>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/09/09/image-20191203192523571-1599656007275.png#align=left&amp;display=inline&amp;height=1080&amp;margin=%5Bobject%20Object%5D&amp;originHeight=1080&amp;originWidth=1440&amp;status=done&amp;style=none&amp;width=1440" alt=""></p>
+<blockquote>
+<p><strong>朗伯体</strong>：<br>朗伯体：是指当入射能量在所有方向均匀反射，即入射能量以入射点为中心，在整个半球空间内向四周各向同性的反射能量的现象，称为漫反射，也称各向同性反射，一个完全的漫射体称为朗伯体。理想的漫反射应遵循这个规律。例如积雪和白墙。<br>余弦发光体：若一扩展光源的发光强度为dI∝cosθ，即其亮度B与方向无关。这类发射体称为余弦发光体，或朗伯（J.H.Lambert）发光体，上述按cosθ规律发射光通量的规律，成为朗伯余弦定律。式中dI为扩展光表面的每块面元dS沿某方向r的发光强度，θ为r与法线n的夹角。<br>从远处看，发光球体像是一个发光圆盘，这就是余弦发光体，太阳就是余弦发光体。<br><strong>物体表面对电磁波的反射有三种形式</strong>：</p>
+<ol>
+<li><strong>镜面反射</strong>：反射能量集中在一个方向，反射角=入射角。</li>
+<li><strong>漫反射</strong>：整个表面都均匀地向各向反射入射光。</li>
+<li><strong>方向反射</strong>：介于漫反射和镜面反射之间，各向都有反射，但各向反射强度不均一。<strong>实际上多数自然表面对辐射的波长而言都是粗糙表面。当目标物的表面足够粗糙，以致于它对太阳短波辐射的反射辐射亮度在以目标物的中心的2π空间中呈常数，即反射辐射亮度不随观测角度而变，我们称该物体为漫反射体，亦称朗伯体。漫反射又称朗伯(Lambert)反射，也称各向同性反射。</strong></li>
+</ol>
+<p>对反射率的一些思考（从量纲量级角度）：</p>
+<ol>
+<li>牢记双向反射率的定义：</li>
+</ol>
+<script type="math/tex; mode=display">
+r= I/J \quad [Sr^{-1}]</script><ol>
+<li>假如没有吸收，且反射在$2\pi$空间内各向同性(朗伯体)，则某一表面</li>
+</ol>
+<ul>
+<li>入射能量：$P_{in} = J\mu_0 = J (i =0)$</li>
+<li>出射能量：$P_{out} = \int I cos e d\Omega = \int J r \cos e \sin ede d\varphi = J \pi[Sr] r [Sr^{-1}]$</li>
+<li>能量守恒：</li>
+</ul>
+<script type="math/tex; mode=display">
+P_{in} = P_{out} \Rightarrow r = {1\over \pi}</script><p><strong>各种反射率的范围</strong>：</p>
+<p>BDR = r: 理想朗伯体为$1/\pi$；$[0,1/\pi]$<br>BDRF = r/cos(i): 范围待分析，本人研究过程中不常用！<br>RADF = $\pi r$: $[0,1]$<br>REFF = ${r\over cos i /\pi}$: $[0,1]$ (理想朗伯体的双向反射率最大！)</p>
+<p><strong>对理想朗伯体而言，半球反射率与反射率因子在数值上相等</strong>：</p>
+<p>理想朗伯体的双向反射率：$r = cos i /\pi$</p>
+<p>设朗伯体表面积为S,入射辐照度为J,入射角为i,出射角为$\theta$,方位角为$\varphi$,则:<br>按定义，$r = I/J$<br>入射通量为：$\Phi_i = J S cos i$<br>出射通量为：</p>
+<p>$\Phi_o = \int I S_\perp d\Omega = \int (rJ)(S cos\theta)d\Omega = rJS \int_0^{2\pi}\int_0^{\pi/2} cos\theta sin\theta d\theta d\varphi = rJS\pi$</p>
+<p>按定义，半球反射率，$r_{dh} = {\Phi_o \over \Phi_i}= {rJS\pi \over JS cos i}= {\pi r \over cos i}$<br>于是，可推导出，$r = r_{dh} cos i/\pi$<br>进而，按定义，$REFF = {r \over cos i/\pi}= r_{dh}$</p>
+<ol>
+<li>考虑入射角为0的朗伯平面（perfectly diffuse surface）：</li>
+</ol>
+<script type="math/tex; mode=display">
+r = 1/\pi</script><ul>
+<li>从反照率</li>
+</ul>
+<script type="math/tex; mode=display">
+A_L= {P_{out} \over J\mu_0} =1 \Rightarrow P_{out} = J = P_{in}; (\mu_0 =1)</script><p> <strong>满足能量守恒</strong></p>
+<ul>
+<li>从双向反射率：</li>
+</ul>
+<script type="math/tex; mode=display">
+r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半球} I\mu d\Omega = J/\pi \int_{e=0}^{\pi/2} \cos e \sin e de \int_{\psi =0}^{2\pi} = J = P_{in}</script><p><strong>满足能量守恒</strong></p>
+<ul>
+<li>但</li>
+</ul>
+<script type="math/tex; mode=display">
+\int_{上半球} r d\Omega = 2 \neq 1</script><ul>
+<li>$RADF = \pi r =1$ ;因为完全反射，所以在各个方向上，$RADF=1$。</li>
+<li><strong>基尔霍夫定律</strong>：发射率= 吸收率=1-反射率（在各个方向上都满足），<ul>
+<li><strong>For an arbitrary body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity.</strong></li>
+<li>a good absorber is a good emitter, and a poor absorber is a poor emitter,a good reflector must be a poor absorber.</li>
+<li>In a blackbody enclosure that contains electromagnetic radiation with a certain amount of energy at thermodynamic equilibrium, this “photon gas” will have a Planck distribution of energies.</li>
+<li><strong>black body radiation is equal in every direction (isotropic)</strong>, the emissivity and the absorptivity, if they happen to be dependent on direction, must again be equal for any given direction.</li>
+<li><strong>此处的反射率不是双向反射率。</strong></li>
+<li><strong>Kirchhoff ’s law applies to directional–hemispherical reflectance</strong>。(Bandfield,2018)<br>-</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/12/06/hapke/reflectance/" rel="prev" title="Reflectance">
+      <i class="fa fa-chevron-left"></i> Reflectance
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/12/06/new-file-test/" rel="next" title="new_file_test">
+      new_file_test <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#10-A-miscellany-of-bidirectional-reflectances-and-related-quantities"><span class="nav-number">1.</span> <span class="nav-text">10 A miscellany of bidirectional reflectances and related quantities</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#10-2-some-commonly-encountered-bidirectional-reflectance-quantities"><span class="nav-number">1.1.</span> <span class="nav-text">10.2  some commonly encountered bidirectional reflectance quantities</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Lin Guo</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lin Guo</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+</body>
+</html>

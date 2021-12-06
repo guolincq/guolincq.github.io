@@ -20,28 +20,86 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="此篇记录在python实操过程中遇见的问题以及最终的解决办法 123456789# 导入常用的包import numpy as npimport matplotlibimport matplotlib.pyplot as pltimport pandas as pdimport scipy as si%matplotlib inline 写在最前 善用帮助：函数和文档 多用函数和循环，减少代码量">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python 日常实践">
+<meta property="og:url" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="此篇记录在python实操过程中遇见的问题以及最终的解决办法 123456789# 导入常用的包import numpy as npimport matplotlibimport matplotlib.pyplot as pltimport pandas as pdimport scipy as si%matplotlib inline 写在最前 善用帮助：函数和文档 多用函数和循环，减少代码量">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_25_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_27_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_31_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_65_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_67_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_68_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_69_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_71_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_75_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_77_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_164_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_165_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_178_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_179_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_180_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_181_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_183_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_184_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_187_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_190_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_192_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_198_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_208_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_243_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_247_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_2.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_3.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_4.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_5.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_214_6.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_219_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_220_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_221_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_222_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_226_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_231_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_252_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_255_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_260_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_261_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_423_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_461_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_474_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_474_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_474_2.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_476_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_479_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_481_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_482_0.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_484_1.png">
+<meta property="og:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_493_1.png">
+<meta property="article:published_time" content="2021-12-06T07:18:26.440Z">
+<meta property="article:modified_time" content="2021-12-06T07:19:42.433Z">
 <meta property="article:author" content="Lin Guo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/output_25_1.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Blog</title>
+  <title>Python 日常实践 | Blog</title>
   
 
 
@@ -139,363 +197,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/new-file-test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/06/new-file-test/" class="post-title-link" itemprop="url">new_file_test</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-12-06 15:32:34" itemprop="dateCreated datePublished" datetime="2021-12-06T15:32:34+08:00">2021-12-06</time>
-            </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/" class="post-title-link" itemprop="url">Chapter 10</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-12-06 15:31:31 / 修改时间：15:36:52" itemprop="dateCreated datePublished" datetime="2021-12-06T15:31:31+08:00">2021-12-06</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="10-A-miscellany-of-bidirectional-reflectances-and-related-quantities"><a href="#10-A-miscellany-of-bidirectional-reflectances-and-related-quantities" class="headerlink" title="10 A miscellany of bidirectional reflectances and related quantities"></a>10 A miscellany of bidirectional reflectances and related quantities</h2><blockquote>
-<p><strong>补充知识</strong>：<br><strong>辐射度量</strong></p>
-<ol>
-<li><strong>辐射能量</strong>（Radiant energy,Q）：电磁辐射的能量，J(焦耳)</li>
-</ol>
-<blockquote>
-<p>使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动</p>
-</blockquote>
-<ol>
-<li><strong>辐射通量</strong>(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（power）</li>
-</ol>
-<script type="math/tex; mode=display">
-\Phi= dQ/dt</script><ol>
-<li><strong>辐射通量密度</strong>:单位面积上的辐射通量,$W/m^2$</li>
-</ol>
-<script type="math/tex; mode=display">
-d\Phi/dS</script><ol>
-<li><strong>辐射照度</strong>（Irradiance,E);单位面积被辐射物体所接收的辐射通量</li>
-</ol>
-<script type="math/tex; mode=display">
-E = d\Phi/dS</script><ul>
-<li><strong>辐照度衰减</strong>：</li>
-</ul>
-<script type="math/tex; mode=display">
-E^\prime = {\Phi \over 4\pi r^2}</script><ul>
-<li><strong>兰伯特余弦定律</strong>：表面辐照度与光方向和表面法线夹角的余弦值成正比(也就是说只要在表面法线方向的的辐射度分量)。</li>
-<li><strong>辐射出射度</strong>（Radiant exitance）:单位面积上辐射源辐射出的辐射通量</li>
-</ul>
-<script type="math/tex; mode=display">
-M =d\Phi/dS</script><ol>
-<li><strong>辐射强度</strong>（Radiant Intensity）:点辐射源在单位立体角内的辐射通量,$W/Sr$</li>
-</ol>
-<script type="math/tex; mode=display">
-I = d\Phi/d\Omega</script><blockquote>
-<p>对各向同性点源，$I = {\Phi \over 4\pi}$; $W/Sr$</p>
-</blockquote>
-<ol>
-<li><strong>辐射</strong>（Radiance,也称亮度，luminance,L）:辐射源在单位投影面积上、单位立体角内的辐射通量，</li>
-</ol>
-<script type="math/tex; mode=display">
-L(\theta) = \frac{d^2\Phi}{d\Omega dA \cos\theta}=\frac{dM}{d\Omega \cos \theta}</script><p><strong>最重要概念</strong></p>
-<ul>
-<li>Radiant Flux,辐射通量，光通量，辐射功率；在单位时间穿过截面的光能；单位是W，瓦特</li>
-<li>(Radiant) Intensity, 辐射强度，发光强度；每单位立体角的辐射通量；单位  ，瓦特每球面度。</li>
-<li>Radiance, 光亮度，辐亮度，辐射率；每单位立体角每单位投影面积的辐射通量；瓦特每球面度每平方米。</li>
-<li>Irradiance, 辐照度，辉度，辐射照度；单位时间内到达单位面积的辐射通量，也就是辐射通量对于面积的密度；瓦特每平方米。</li>
-</ul>
-</blockquote>
-<p><img src="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927" alt="辐射度量概念.jpg"><br>详情可参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/139468429">辐射度量学 - 知乎</a></p>
-<h3 id="10-2-some-commonly-encountered-bidirectional-reflectance-quantities"><a href="#10-2-some-commonly-encountered-bidirectional-reflectance-quantities" class="headerlink" title="10.2  some commonly encountered bidirectional reflectance quantities"></a>10.2  some commonly encountered bidirectional reflectance quantities</h3><p><strong>the bidirectional reflectance $r(i,e,g)$</strong></p>
-<script type="math/tex; mode=display">
-r(i,e,g)= K\frac{\varpi}{4\pi}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]</script><blockquote>
-<p>the bidirectional reflectance is the ratio of the radiance scattered from the surface of a medium into a given direction to the collimated power incident <strong>per area perpendicular to the direction of the incidence.</strong></p>
-<p>K is the porosity coefficients.</p>
-<p>孔隙率：土壤中孔隙体积与总体积的比值。</p>
-<p>$r(i,e,g)=\dfrac{emit_radiance}{incident_irradiance}=\dfrac{I_e}{J}.$</p>
-</blockquote>
-<p><img src="https://cdn.nlark.com/yuque/0/2021/png/1500846/1614828169002-539ac1ac-aa36-4e73-8f5c-5c9044e8a6b9.png#align=left&amp;display=inline&amp;height=582&amp;margin=%5Bobject%20Object%5D&amp;name=10.1bidirectionalReflectence.png&amp;originHeight=582&amp;originWidth=1492&amp;size=83460&amp;status=done&amp;style=none&amp;width=1492" alt="10.1bidirectionalReflectence.png"></p>
-<blockquote>
-<p>X.-J. Huang et al.: Analysis Based on the Hapke Model and LS Model</p>
-</blockquote>
-<p><strong>the bidirectional-reflectance distribution function (BDRF)</strong></p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-BDRF(i,e,g)=&\frac{I}{J\mu_0}=\frac{r(i,e,g)}{\mu_0}\\
-=&K\frac{\varpi}{4\pi}\frac{1}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]
-\end{aligned}</script><blockquote>
-<p>the bidirectional-reflectance distribution function (BDRF) is the ratio of the radiance scattered from the surface of a medium into a given direction to <strong>the collimated power incident on a unit area of the surface.</strong></p>
-</blockquote>
-<p><strong>the reflectance factor (REFF)</strong>, is also called the <strong>_reflectance coefficient (or, apparent reflectance)._</strong></p>
-<script type="math/tex; mode=display">
-\small REFF(i,e,g)= \pi r(i,e,g)/\mu_0=K\frac{\varpi}{4}\frac{1}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]</script><blockquote>
-<p>the reflectance factor is the ratio of the reflectance of the surface to that of  a <strong>perfectly diffuse surface</strong> under <strong>the same conditions of illumination and measurement</strong>.<br>the bidirectional reflectance of a perfect Lambert surface is</p>
-<p>$r_L =\mu_0/\pi$</p>
-<p>for details(8.5.1 Lambert’s law)</p>
-<p>reflectance <strong>factor</strong>: 即测量到的反射率$I/J$与相同光照条件下的朗伯体的反射率$\cos i/\pi$之比。</p>
-</blockquote>
-<p><strong>the radiance factor (RADF)</strong>, is also denoted by <strong>I/F</strong>.</p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-RADF(i,e,g)=&\frac{I}{F}(i,e,g)=\pi r(i,e,g)
-\\=&K\frac{\varpi}{4}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]
-\end{aligned}</script><blockquote>
-<p>the radiance factor is the ratio of the bidirectional reflectance of a surface to that of a perfectly diffuse surface illuminated at</p>
-<script type="math/tex; mode=display">
-i = 0,r_L=1/\pi</script><p>, rather than at the same angle of illumination as the sample.</p>
-<p>$F=J/\pi$, Chandrasekhar (1960).</p>
-<p>Shkuratov,2011称：在老文章里，也称<strong>apparent albedo</strong>.（不够准确，权当历史原因造成）。</p>
-</blockquote>
-<p><strong>the relative reflectance ,</strong></p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\Gamma(i,e,g)=&\frac{r(Sample)}{r(standard\_surface)}\\
-= &\frac{K_{Sa}}{K_{St}}\varpi\frac{P(g)+H(\mu_0/K_{Sa},\varpi)H(\mu/K_{Sa},\varpi)-1}{H(\mu_0/K_{St},\varpi=1)H(\mu/K_{St},\varpi=1)}
-\end{aligned}</script><blockquote>
-<p>the relative reflectance of a particulate sample is the reflectance relative to that of standard surface consisting of an infinitely thick particulate medium of nonabsorbing, isotropic scatterers, with negligible opposition effect, and illuminated and viewed at the same geometry as the sample.</p>
-<p>if</p>
-<script type="math/tex; mode=display">
-K_{Sa}=K_{St}\approx 1</script><p>, and the H functions</p>
-<script type="math/tex; mode=display">
-H(x)\simeq \frac{1+2x}{1+2\gamma x}</script><p>, the relative bidirectional reflectance of a sample of isotropic scatterers measured outside of the opposition peak is given by</p>
-<script type="math/tex; mode=display">
-\Gamma(i,e,g\gg h)=\frac{\varpi}{(1+2\gamma\mu_0)(1+2\gamma\mu)}</script></blockquote>
-<p><strong>the reduced reflectance $r_r(i,e,g)$</strong></p>
-<script type="math/tex; mode=display">
-r_r(i,e,g) =\frac{I/F}{\mu_0/(\mu_0 +\mu)}</script><blockquote>
-<p>the reduced reflectance  is defined as the radiance factor divided by the Lommel-Seeliger factor.</p>
-</blockquote>
-<p>计算过程中通常还需要校正太阳距离：</p>
-<ul>
-<li>加州理工大学，喷气动力实验室，JPL：<a target="_blank" rel="noopener" href="https://ssd.jpl.nasa.gov/horizons.cgi">https://ssd.jpl.nasa.gov/horizons.cgi</a> （地平线系统！）</li>
-</ul>
-<p><strong>补充知识</strong></p>
-<blockquote>
-<p><strong>反射率波谱</strong></p>
-<ul>
-<li>方向-方向反射率波谱（晴天，野外便携式地物光谱仪）</li>
-<li><strong>半球 -方向反射率波谱</strong>（阴天）</li>
-<li>方向-半球反射率波谱（积分球，波谱测定器）;directional-hemispherical reflectance.</li>
-<li>半球- 半球反射率波谱（等效于反照率光谱）</li>
-</ul>
-</blockquote>
-<p><img src="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/09/09/image-20191203192523571-1599656007275.png#align=left&amp;display=inline&amp;height=1080&amp;margin=%5Bobject%20Object%5D&amp;originHeight=1080&amp;originWidth=1440&amp;status=done&amp;style=none&amp;width=1440" alt=""></p>
-<blockquote>
-<p><strong>朗伯体</strong>：<br>朗伯体：是指当入射能量在所有方向均匀反射，即入射能量以入射点为中心，在整个半球空间内向四周各向同性的反射能量的现象，称为漫反射，也称各向同性反射，一个完全的漫射体称为朗伯体。理想的漫反射应遵循这个规律。例如积雪和白墙。<br>余弦发光体：若一扩展光源的发光强度为dI∝cosθ，即其亮度B与方向无关。这类发射体称为余弦发光体，或朗伯（J.H.Lambert）发光体，上述按cosθ规律发射光通量的规律，成为朗伯余弦定律。式中dI为扩展光表面的每块面元dS沿某方向r的发光强度，θ为r与法线n的夹角。<br>从远处看，发光球体像是一个发光圆盘，这就是余弦发光体，太阳就是余弦发光体。<br><strong>物体表面对电磁波的反射有三种形式</strong>：</p>
-<ol>
-<li><strong>镜面反射</strong>：反射能量集中在一个方向，反射角=入射角。</li>
-<li><strong>漫反射</strong>：整个表面都均匀地向各向反射入射光。</li>
-<li><strong>方向反射</strong>：介于漫反射和镜面反射之间，各向都有反射，但各向反射强度不均一。<strong>实际上多数自然表面对辐射的波长而言都是粗糙表面。当目标物的表面足够粗糙，以致于它对太阳短波辐射的反射辐射亮度在以目标物的中心的2π空间中呈常数，即反射辐射亮度不随观测角度而变，我们称该物体为漫反射体，亦称朗伯体。漫反射又称朗伯(Lambert)反射，也称各向同性反射。</strong></li>
-</ol>
-<p>对反射率的一些思考（从量纲量级角度）：</p>
-<ol>
-<li>牢记双向反射率的定义：</li>
-</ol>
-<script type="math/tex; mode=display">
-r= I/J \quad [Sr^{-1}]</script><ol>
-<li>假如没有吸收，且反射在$2\pi$空间内各向同性(朗伯体)，则某一表面</li>
-</ol>
-<ul>
-<li>入射能量：$P_{in} = J\mu_0 = J (i =0)$</li>
-<li>出射能量：$P_{out} = \int I cos e d\Omega = \int J r \cos e \sin ede d\varphi = J \pi[Sr] r [Sr^{-1}]$</li>
-<li>能量守恒：</li>
-</ul>
-<script type="math/tex; mode=display">
-P_{in} = P_{out} \Rightarrow r = {1\over \pi}</script><p><strong>各种反射率的范围</strong>：</p>
-<p>BDR = r: 理想朗伯体为$1/\pi$；$[0,1/\pi]$<br>BDRF = r/cos(i): 范围待分析，本人研究过程中不常用！<br>RADF = $\pi r$: $[0,1]$<br>REFF = ${r\over cos i /\pi}$: $[0,1]$ (理想朗伯体的双向反射率最大！)</p>
-<p><strong>对理想朗伯体而言，半球反射率与反射率因子在数值上相等</strong>：</p>
-<p>理想朗伯体的双向反射率：$r = cos i /\pi$</p>
-<p>设朗伯体表面积为S,入射辐照度为J,入射角为i,出射角为$\theta$,方位角为$\varphi$,则:<br>按定义，$r = I/J$<br>入射通量为：$\Phi_i = J S cos i$<br>出射通量为：</p>
-<p>$\Phi_o = \int I S_\perp d\Omega = \int (rJ)(S cos\theta)d\Omega = rJS \int_0^{2\pi}\int_0^{\pi/2} cos\theta sin\theta d\theta d\varphi = rJS\pi$</p>
-<p>按定义，半球反射率，$r_{dh} = {\Phi_o \over \Phi_i}= {rJS\pi \over JS cos i}= {\pi r \over cos i}$<br>于是，可推导出，$r = r_{dh} cos i/\pi$<br>进而，按定义，$REFF = {r \over cos i/\pi}= r_{dh}$</p>
-<ol>
-<li>考虑入射角为0的朗伯平面（perfectly diffuse surface）：</li>
-</ol>
-<script type="math/tex; mode=display">
-r = 1/\pi</script><ul>
-<li>从反照率</li>
-</ul>
-<script type="math/tex; mode=display">
-A_L= {P_{out} \over J\mu_0} =1 \Rightarrow P_{out} = J = P_{in}; (\mu_0 =1)</script><p> <strong>满足能量守恒</strong></p>
-<ul>
-<li>从双向反射率：</li>
-</ul>
-<script type="math/tex; mode=display">
-r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半球} I\mu d\Omega = J/\pi \int_{e=0}^{\pi/2} \cos e \sin e de \int_{\psi =0}^{2\pi} = J = P_{in}</script><p><strong>满足能量守恒</strong></p>
-<ul>
-<li>但</li>
-</ul>
-<script type="math/tex; mode=display">
-\int_{上半球} r d\Omega = 2 \neq 1</script><ul>
-<li>$RADF = \pi r =1$ ;因为完全反射，所以在各个方向上，$RADF=1$。</li>
-<li><strong>基尔霍夫定律</strong>：发射率= 吸收率=1-反射率（在各个方向上都满足），<ul>
-<li><strong>For an arbitrary body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity.</strong></li>
-<li>a good absorber is a good emitter, and a poor absorber is a poor emitter,a good reflector must be a poor absorber.</li>
-<li>In a blackbody enclosure that contains electromagnetic radiation with a certain amount of energy at thermodynamic equilibrium, this “photon gas” will have a Planck distribution of energies.</li>
-<li><strong>black body radiation is equal in every direction (isotropic)</strong>, the emissivity and the absorptivity, if they happen to be dependent on direction, must again be equal for any given direction.</li>
-<li><strong>此处的反射率不是双向反射率。</strong></li>
-<li><strong>Kirchhoff ’s law applies to directional–hemispherical reflectance</strong>。(Bandfield,2018)<br>-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/hapke/reflectance/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/06/hapke/reflectance/" class="post-title-link" itemprop="url">Reflectance</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-12-06 15:31:31" itemprop="dateCreated datePublished" datetime="2021-12-06T15:31:31+08:00">2021-12-06</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -511,10 +216,9 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
       <meta itemprop="name" content="Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/06/python%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/" class="post-title-link" itemprop="url">Python 日常实践</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Python 日常实践
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -538,7 +242,7 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><strong>此篇记录在python实操过程中遇见的问题以及最终的解决办法</strong></p>
+        <p><strong>此篇记录在python实操过程中遇见的问题以及最终的解决办法</strong></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 导入常用的包</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> scipy <span class="keyword">as</span> si</span><br><span class="line"></span><br><span class="line">%matplotlib inline</span><br></pre></td></tr></table></figure>
 <h1 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h1><ul>
 <li>善用帮助：函数和文档</li>
@@ -3380,177 +3084,33 @@ egin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}<
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/1206-test/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/06/1206-test/" class="post-title-link" itemprop="url">中文测试</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-12-06 13:58:15 / 修改时间：15:09:27" itemprop="dateCreated datePublished" datetime="2021-12-06T13:58:15+08:00">2021-12-06</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>markdown 测试文档</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><ul>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<ul>
-<li>[ ] 待办</li>
-<li>[x] 已完成</li>
-</ul>
-<ul>
-<li>python 代码</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello,world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>引用块</li>
-</ul>
-<blockquote>
-<p>引用块</p>
-</blockquote>
-<ul>
-<li>公式</li>
-</ul>
-<p>$\alpha = \beta$</p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/12/06/1206-test/" rel="prev" title="中文测试">
+      <i class="fa fa-chevron-left"></i> 中文测试
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/12/06/hapke/reflectance/" rel="next" title="Reflectance">
+      Reflectance <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/17/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/11/17/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-11-17 17:04:37" itemprop="dateCreated datePublished" datetime="2021-11-17T17:04:37+08:00">2021-11-17</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -3603,6 +3163,7 @@ egin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}<
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D"><span class="nav-number">1.</span> <span class="nav-text">写在最前</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">读写文件的几种方式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%BB%E5%8F%96%E5%9B%BE%E5%83%8F"><span class="nav-number">2.1.</span> <span class="nav-text">读取图像</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%9F%E6%9F%A5%E8%A1%A8"><span class="nav-number">3.</span> <span class="nav-text">速查表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#numpy"><span class="nav-number">4.</span> <span class="nav-text">numpy</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#numpy-%E7%B4%A2%E5%BC%95"><span class="nav-number">4.1.</span> <span class="nav-text">numpy 索引</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%95%B0%E7%BB%84array%E5%92%8C%E7%9F%A9%E9%98%B5matrix"><span class="nav-number">4.2.</span> <span class="nav-text">创建数组array和矩阵matrix</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97"><span class="nav-number">4.3.</span> <span class="nav-text">基本运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="nav-number">4.4.</span> <span class="nav-text">线性代数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86"><span class="nav-number">5.</span> <span class="nav-text">python图像处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#scipy-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86"><span class="nav-number">5.1.</span> <span class="nav-text">scipy 图像处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%A0%E4%BD%95%E5%8F%98%E6%8D%A2"><span class="nav-number">5.1.1.</span> <span class="nav-text">几何变换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E8%BF%87%E6%BB%A4"><span class="nav-number">5.1.2.</span> <span class="nav-text">图像过滤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E5%BD%A2%E6%80%81%E5%AD%A6%E8%BF%90%E7%AE%97"><span class="nav-number">5.1.3.</span> <span class="nav-text">数学形态学运算</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%EF%BC%9Ascikit-image"><span class="nav-number">5.2.</span> <span class="nav-text">图像处理：scikit-image</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%EF%BC%9Ascipy-ndimage"><span class="nav-number">5.3.</span> <span class="nav-text">图像处理：scipy.ndimage</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Pandas"><span class="nav-number">6.</span> <span class="nav-text">Pandas</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#creation"><span class="nav-number">6.1.</span> <span class="nav-text">creation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#viewing-data"><span class="nav-number">6.2.</span> <span class="nav-text">viewing data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#selection"><span class="nav-number">6.3.</span> <span class="nav-text">selection</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#missing-data"><span class="nav-number">6.4.</span> <span class="nav-text">missing data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pandas-%E7%B4%A2%E5%BC%95"><span class="nav-number">6.5.</span> <span class="nav-text">pandas 索引</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AD%E6%8B%AC%E5%8F%B7%E7%B4%A2%E5%BC%95"><span class="nav-number">6.5.1.</span> <span class="nav-text">中括号索引</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E6%A0%87%E7%AD%BE%E7%B4%A2%E5%BC%95%EF%BC%9A-loc"><span class="nav-number">6.5.2.</span> <span class="nav-text">按标签索引：.loc[[],[]]</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E4%BD%8D%E7%BD%AE%E7%B4%A2%E5%BC%95%EF%BC%9A-iloc"><span class="nav-number">6.5.3.</span> <span class="nav-text">按位置索引：.iloc[[],[]]</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#E-%E5%B8%83%E5%B0%94%E7%B4%A2%E5%BC%95"><span class="nav-number">6.6.</span> <span class="nav-text">E 布尔索引</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Scipy"><span class="nav-number">7.</span> <span class="nav-text">Scipy</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#scipy-special"><span class="nav-number">7.1.</span> <span class="nav-text">scipy.special</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#scipy-optimize-%E7%BB%83%E4%B9%A0"><span class="nav-number">7.2.</span> <span class="nav-text">scipy.optimize 练习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python-%E6%8F%92%E5%80%BC%EF%BC%9Ascipy-interpolate"><span class="nav-number">7.3.</span> <span class="nav-text">python 插值：scipy.interpolate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%96%E6%8E%A8%E6%B3%95-Scipy-UnivariateSpline"><span class="nav-number">7.4.</span> <span class="nav-text">外推法:Scipy.UnivariateSpline</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%89%E8%B0%B1%E5%B9%B3%E6%BB%91-Scipy-signal-savgol-fliter"><span class="nav-number">7.5.</span> <span class="nav-text">光谱平滑 :Scipy.signal.savgol_fliter</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E7%9B%B8%E5%85%B3%E5%87%BD%E6%95%B0"><span class="nav-number">7.6.</span> <span class="nav-text">python 最小二乘相关函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98"><span class="nav-number">7.6.1.</span> <span class="nav-text">非线性最小二乘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98"><span class="nav-number">7.6.2.</span> <span class="nav-text">线性最小二乘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88"><span class="nav-number">7.6.3.</span> <span class="nav-text">曲线拟合</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Matplotlib"><span class="nav-number">8.</span> <span class="nav-text">Matplotlib</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CSDN-matplotlib%E8%AF%A6%E8%A7%A3"><span class="nav-number">8.1.</span> <span class="nav-text">CSDN_matplotlib详解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Colormap-reference"><span class="nav-number">8.2.</span> <span class="nav-text">Colormap reference</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Matplotlib-%E4%B8%89%E7%BB%B4%E5%9B%BE"><span class="nav-number">8.3.</span> <span class="nav-text">Matplotlib 三维图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B4%E6%96%B9%E5%9B%BE"><span class="nav-number">8.4.</span> <span class="nav-text">直方图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#plt-style"><span class="nav-number">8.5.</span> <span class="nav-text">plt.style</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-number">9.</span> <span class="nav-text">正则表达式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A8sympy%E6%B1%82%E8%A7%A3%E6%96%B9%E7%A8%8B"><span class="nav-number">10.</span> <span class="nav-text">用sympy求解方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9B%BE%E8%A1%A8%E4%BA%A4%E4%BA%92%E2%80%94Bokeh"><span class="nav-number">11.</span> <span class="nav-text">可视化图表交互—Bokeh</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#OS%E6%A8%A1%E5%9D%97"><span class="nav-number">12.</span> <span class="nav-text">OS模块</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#json%E6%A8%A1%E5%9D%97"><span class="nav-number">13.</span> <span class="nav-text">json模块</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%96%B0%E7%9F%A5"><span class="nav-number">14.</span> <span class="nav-text">基础知识新知</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%E6%96%B0%E7%9F%A5"><span class="nav-number">14.1.</span> <span class="nav-text">函数新知</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F"><span class="nav-number">14.2.</span> <span class="nav-text">格式化输出的几种方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">14.3.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BE%93%E5%85%A5"><span class="nav-number">14.4.</span> <span class="nav-text">输入</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E5%BD%A2"><span class="nav-number">15.</span> <span class="nav-text">分形</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E8%84%9A%E6%9C%AC"><span class="nav-number">16.</span> <span class="nav-text">批量下载脚本</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3Blue1Brown-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="nav-number">17.</span> <span class="nav-text">3Blue1Brown 线性代数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#pyecharts"><span class="nav-number">18.</span> <span class="nav-text">pyecharts</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Geoprocessing-with-python"><span class="nav-number">19.</span> <span class="nav-text">Geoprocessing with python</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83"><span class="nav-number">20.</span> <span class="nav-text">正态分布</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B7%AE%E5%88%86%E6%B3%95%E6%B1%82%E8%A7%A3%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B"><span class="nav-number">21.</span> <span class="nav-text">差分法求解微分方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98"><span class="nav-number">22.</span> <span class="nav-text">最小二乘</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
