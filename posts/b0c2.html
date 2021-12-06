@@ -14,17 +14,18 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"guolincq.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="10 A miscellany of bidirectional reflectances and related quantities 补充知识：辐射度量  辐射能量（Radiant energy,Q）：电磁辐射的能量，J(焦耳)   使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动   辐射通量(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Chapter 10">
-<meta property="og:url" content="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/index.html">
-<meta property="og:site_name" content="Blog">
+<meta property="og:url" content="https://guolincq.github.io/posts/b0c2.html">
+<meta property="og:site_name" content="Growing">
 <meta property="og:description" content="10 A miscellany of bidirectional reflectances and related quantities 补充知识：辐射度量  辐射能量（Radiant energy,Q）：电磁辐射的能量，J(焦耳)   使被照物体温度升高；改变物体的内部状态；是带电物体受力而运动   辐射通量(Radiant flux):单位时间内通过某一面积的辐射能量，W(瓦特),也称为功率（">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927">
@@ -36,7 +37,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927">
 
-<link rel="canonical" href="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/">
+<link rel="canonical" href="https://guolincq.github.io/posts/b0c2.html">
 
 
 <script id="page-configurations">
@@ -49,7 +50,7 @@
   };
 </script>
 
-  <title>Chapter 10 | Blog</title>
+  <title>Chapter 10 | Growing</title>
   
 
 
@@ -100,9 +101,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Blog</h1>
+      <h1 class="site-title">Growing</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">日拱一卒。</p>
   </div>
 
   <div class="site-nav-right">
@@ -121,6 +123,21 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
@@ -136,10 +153,7 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -154,16 +168,16 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/06/hapke/10.%20Miscellany%20of%20bidirectional%20reflectances%20and%20related%20quantities/">
+    <link itemprop="mainEntityOfPage" href="https://guolincq.github.io/posts/b0c2.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/48752043?v=4">
       <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="怕什么真理无穷，进一寸有进一寸的欢喜。">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
+      <meta itemprop="name" content="Growing">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -181,7 +195,21 @@
               <time title="创建时间：2021-12-06 15:31:31 / 修改时间：15:36:52" itemprop="dateCreated datePublished" datetime="2021-12-06T15:31:31+08:00">2021-12-06</time>
             </span>
 
-          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>6.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
 
         </div>
       </header>
@@ -240,7 +268,7 @@ L(\theta) = \frac{d^2\Phi}{d\Omega dA \cos\theta}=\frac{dM}{d\Omega \cos \theta}
 <li>Irradiance, 辐照度，辉度，辐射照度；单位时间内到达单位面积的辐射通量，也就是辐射通量对于面积的密度；瓦特每平方米。</li>
 </ul>
 </blockquote>
-<p><img src="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927" alt="辐射度量概念.jpg"><br>详情可参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/139468429">辐射度量学 - 知乎</a></p>
+<p><img data-src="https://cdn.nlark.com/yuque/0/2021/jpeg/1500846/1614828140717-f4527b74-5a7b-4120-acfe-6fea246233ac.jpeg#align=left&amp;display=inline&amp;height=681&amp;margin=%5Bobject%20Object%5D&amp;name=%E8%BE%90%E5%B0%84%E5%BA%A6%E9%87%8F%E6%A6%82%E5%BF%B5.jpg&amp;originHeight=681&amp;originWidth=927&amp;size=116767&amp;status=done&amp;style=none&amp;width=927" alt="辐射度量概念.jpg"><br>详情可参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/139468429">辐射度量学 - 知乎</a></p>
 <h3 id="10-2-some-commonly-encountered-bidirectional-reflectance-quantities"><a href="#10-2-some-commonly-encountered-bidirectional-reflectance-quantities" class="headerlink" title="10.2  some commonly encountered bidirectional reflectance quantities"></a>10.2  some commonly encountered bidirectional reflectance quantities</h3><p><strong>the bidirectional reflectance $r(i,e,g)$</strong></p>
 <script type="math/tex; mode=display">
 r(i,e,g)= K\frac{\varpi}{4\pi}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/K)-1\right]</script><blockquote>
@@ -249,7 +277,7 @@ r(i,e,g)= K\frac{\varpi}{4\pi}\frac{\mu_0}{\mu_0+\mu}\left[P(g)+H(\mu_0/K)H(\mu/
 <p>孔隙率：土壤中孔隙体积与总体积的比值。</p>
 <p>$r(i,e,g)=\dfrac{emit_radiance}{incident_irradiance}=\dfrac{I_e}{J}.$</p>
 </blockquote>
-<p><img src="https://cdn.nlark.com/yuque/0/2021/png/1500846/1614828169002-539ac1ac-aa36-4e73-8f5c-5c9044e8a6b9.png#align=left&amp;display=inline&amp;height=582&amp;margin=%5Bobject%20Object%5D&amp;name=10.1bidirectionalReflectence.png&amp;originHeight=582&amp;originWidth=1492&amp;size=83460&amp;status=done&amp;style=none&amp;width=1492" alt="10.1bidirectionalReflectence.png"></p>
+<p><img data-src="https://cdn.nlark.com/yuque/0/2021/png/1500846/1614828169002-539ac1ac-aa36-4e73-8f5c-5c9044e8a6b9.png#align=left&amp;display=inline&amp;height=582&amp;margin=%5Bobject%20Object%5D&amp;name=10.1bidirectionalReflectence.png&amp;originHeight=582&amp;originWidth=1492&amp;size=83460&amp;status=done&amp;style=none&amp;width=1492" alt="10.1bidirectionalReflectence.png"></p>
 <blockquote>
 <p>X.-J. Huang et al.: Analysis Based on the Hapke Model and LS Model</p>
 </blockquote>
@@ -314,7 +342,7 @@ r_r(i,e,g) =\frac{I/F}{\mu_0/(\mu_0 +\mu)}</script><blockquote>
 <li>半球- 半球反射率波谱（等效于反照率光谱）</li>
 </ul>
 </blockquote>
-<p><img src="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/09/09/image-20191203192523571-1599656007275.png#align=left&amp;display=inline&amp;height=1080&amp;margin=%5Bobject%20Object%5D&amp;originHeight=1080&amp;originWidth=1440&amp;status=done&amp;style=none&amp;width=1440" alt=""></p>
+<p><img data-src="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/09/09/image-20191203192523571-1599656007275.png#align=left&amp;display=inline&amp;height=1080&amp;margin=%5Bobject%20Object%5D&amp;originHeight=1080&amp;originWidth=1440&amp;status=done&amp;style=none&amp;width=1440" alt=""></p>
 <blockquote>
 <p><strong>朗伯体</strong>：<br>朗伯体：是指当入射能量在所有方向均匀反射，即入射能量以入射点为中心，在整个半球空间内向四周各向同性的反射能量的现象，称为漫反射，也称各向同性反射，一个完全的漫射体称为朗伯体。理想的漫反射应遵循这个规律。例如积雪和白墙。<br>余弦发光体：若一扩展光源的发光强度为dI∝cosθ，即其亮度B与方向无关。这类发射体称为余弦发光体，或朗伯（J.H.Lambert）发光体，上述按cosθ规律发射光通量的规律，成为朗伯余弦定律。式中dI为扩展光表面的每块面元dS沿某方向r的发光强度，θ为r与法线n的夹角。<br>从远处看，发光球体像是一个发光圆盘，这就是余弦发光体，太阳就是余弦发光体。<br><strong>物体表面对电磁波的反射有三种形式</strong>：</p>
 <ol>
@@ -389,11 +417,11 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/12/06/hapke/reflectance/" rel="prev" title="Reflectance">
+    <a href="/posts/ac86.html" rel="prev" title="Reflectance">
       <i class="fa fa-chevron-left"></i> Reflectance
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/12/06/new-file-test/" rel="next" title="new_file_test">
+    <a href="/posts/80c2.html" rel="next" title="new_file_test">
       new_file_test <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -460,8 +488,10 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Lin Guo"
+      src="https://avatars.githubusercontent.com/u/48752043?v=4">
   <p class="site-author-name" itemprop="name">Lin Guo</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">怕什么真理无穷，进一寸有进一寸的欢喜。</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -474,10 +504,22 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/guolincq" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;guolincq" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:guolin_cq@163.com" title="E-Mail → mailto:guolin_cq@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
@@ -501,9 +543,41 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Lin Guo</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">118k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:47</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("08/10/2021 12:00:00");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()",250);
+</script>
 
         
 
@@ -520,6 +594,9 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
