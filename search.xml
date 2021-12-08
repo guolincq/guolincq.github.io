@@ -13,10 +13,7 @@
 <li>有序列表</li>
 <li>有序列表</li>
 </ol>
-<ul>
-<li>[ ] 待办</li>
-<li>[x] 已完成</li>
-</ul>
+<p>-[ ] 待办<br>-[x] 已完成</p>
 <ul>
 <li>python 代码</li>
 </ul>
@@ -48,9 +45,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>new_file_test</title>
-    <url>/posts/80c2.html</url>
-    <content><![CDATA[]]></content>
+    <title>关于个人网站的学习资源总结</title>
+    <url>/posts/7239.html</url>
+    <content><![CDATA[<h2 id="1-博客：github-hexo"><a href="#1-博客：github-hexo" class="headerlink" title="1. 博客：github+hexo"></a>1. 博客：github+hexo</h2><p><a href="https://yuumiy.github.io/posts/2789.html">https://yuumiy.github.io/posts/2789.html</a></p>
+<p><a href="https://www.jianshu.com/p/9b9c241146bc">https://www.jianshu.com/p/9b9c241146bc</a></p>
+<p> Hexo博客写文章及基本操作 - Unity晚阳的文章 - 知乎 &lt;<a href="https://zhuanlan.zhihu.com/p/156915260">https://zhuanlan.zhihu.com/p/156915260</a> &gt;</p>
+<h2 id="2-个人主页：-GitHub-jekyll"><a href="#2-个人主页：-GitHub-jekyll" class="headerlink" title="2. 个人主页： GitHub + jekyll"></a>2. 个人主页： GitHub + jekyll</h2><h2 id="3-学术主页：-github-hugo-netlify"><a href="#3-学术主页：-github-hugo-netlify" class="headerlink" title="3. 学术主页： github+hugo+netlify"></a>3. 学术主页： github+hugo+netlify</h2><p> 【Hugo+Netlify】制作英文学术个人简介网站（一）：基础版 - Magical-E的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/110137145">https://zhuanlan.zhihu.com/p/110137145</a> </p>
+]]></content>
   </entry>
   <entry>
     <title>Chapter 10</title>
@@ -238,11 +239,6 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
 </ul>
 </blockquote>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Reflectance</title>
-    <url>/posts/ac86.html</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Python 日常实践</title>
