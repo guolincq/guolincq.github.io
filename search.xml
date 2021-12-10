@@ -63,16 +63,14 @@
 </ol>
 <script type="math/tex; mode=display">
 z = f(x,y)\\
+
 \sigma_z^2 = \left({\partial f \over \partial x}\right)^2 \sigma_x^2 + \left({\partial f \over \partial y}\right)^2 \sigma_y^2</script><ol>
 <li>示例：</li>
 </ol>
 <script type="math/tex; mode=display">
 \bar{x} = {1\over n}\sum_{i=1}^{n} x_i \\
-\sigma_{\bar{x}} = {1\over n}\sqrt{\sum_{i=1}^{n} \sigma_{x_i}^2}</script><ul>
-<li>[ ] </li>
-<li>[x] </li>
-</ul>
-]]></content>
+
+\sigma_{\bar{x}} = {1\over n}\sqrt{\sum_{i=1}^{n} \sigma_{x_i}^2}</script>]]></content>
   </entry>
   <entry>
     <title>Chapter 10</title>
