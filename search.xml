@@ -3524,7 +3524,7 @@ f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
 <p>the term weak localization comes from an analogy with the transport of electrons through conducting and semiconducting media. there isa similar phenomenon occurs in the transition region between the conditions where the electrons may be described as waves propagating through the medium and where the electron wave functions become localized on individual atoms. although a photon never becomes permanently confined to an atom it can temporarily follow looping, nearly closed, multiply scattered pathes and, hence, be ‘weakly’ localized.</p>
 <p>Part of a wave front incident on a particulate medium encounters a scattering center and is scattered two or more time before exiting the medium at a small phase angle. for very such path another portion of the same wave front will traverse the same path within the medium but in the opposite direction. at large phase angles there is no coherence between the two wavelets and the total intensity is twice the individual intensities. at zero phase angle the two wavelets will be <strong>in phase</strong> upon emerging from the medium and will combine coherently so as to interfere with each other positively, and the total intensity is quadruple the individual intensities.</p>
 <script type="math/tex; mode=display">1+B_{C 0} B_{C}(g)</script><script type="math/tex; mode=display">B_{C}(g)=\frac{1+\frac{1-\exp \left[-\tan (g / 2) / h_{C}\right]}{\tan (g / 2) / h_{C}}}{2\left[1+\tan (g / 2) / h_{C}\right]^{2}}</script><blockquote>
-<p>$B_{C0}$ is an empirical quantity that cannot be predicted exactly at the present time, but is related to the albedo.</p>
+<p>$B_{C0}$ is an empirical quantity that cannot be predicted exactly at the present time, but is related to the albedo.<br>$h_C = \lambda/4\pi\Lambda$;$\Lambda$ is the transport mean free path in the medium.</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -3736,7 +3736,23 @@ h> \lambda \sec\theta /4</script><p>Note that the roughness criteria depend on �
   <entry>
     <title>Hockey-Stick relation</title>
     <url>/posts/459d.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<ol>
+<li>Henyey-Greenstein function</li>
+</ol>
+<script type="math/tex; mode=display">p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.<br>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.<br>c&gt;0,后向；c&lt;0 前向</p>
+<p>b控制形状：b越大，侧向散射越弱（b=1例外）</p>
+<p>Narrow lobes have b values close to 1, wide lobes have values &lt;&lt; 1, and isotropically scattering particles have b = 0; 0 &lt;= b &lt; 1.</p>
+<p>$p(g)=1$ 表示各向同性；$p(g)\neq 1$ 表示各项异性；$p(g) =0$ 表示完全吸收。</p>
+<p>Normalized: ${1\over 4\pi} \int_0^\pi p(g)2\pi \sin g d g = 1$</p>
+<p>Asymmetry factor:$&lt;\cos \theta&gt; = {1\over 4\pi} \int_0^\pi \cos\theta p(\theta)2\pi \sin \theta d \theta = -bc$</p>
+<p>for  a semi-infinite medium, the multiply scattered portion is much less sensitive to the particle phase function than the singly scattered fraction.</p>
+<p>The brighter the surface, the more times the average photon is scattered before emerging from the surface, causing directional effects to be averaged out and the multiply scattered intensity distribution to closely approach the isotropic case.</p>
+<p>Since the single-scattering term can be evaluated exactly for an arbitrary phase function and the multiply scattered term is relatively insensitive to phase function, a first-order expression for nonisotropic scatterers can be obtained by using the exact expression for the single-scattered term but retaining the isotropic solution for the multiply-scattered term.</p>
+<p>多次散射项不像单次散射项那样对相函数明显，通常，表面越亮，多次散射的次数越多，其方向性就被平均掉了，所以一般多次散射项都当做各向同性处理。</p>
+<ol>
+<li>hockey stick relation</li>
+</ol>
+<script type="math/tex; mode=display">c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script>]]></content>
   </entry>
   <entry>
     <title>the equation of radiative transfer</title>
