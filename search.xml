@@ -31,6 +31,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/3eeb.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -47,7 +52,8 @@
   <entry>
     <title>关于个人网站的学习资源总结</title>
     <url>/posts/7239.html</url>
-    <content><![CDATA[<h2 id="1-博客：github-hexo"><a href="#1-博客：github-hexo" class="headerlink" title="1. 博客：github+hexo"></a>1. 博客：github+hexo</h2><p><a href="https://yuumiy.github.io/posts/2789.html">https://yuumiy.github.io/posts/2789.html</a></p>
+    <content><![CDATA[<h2 id="1-博客：github-hexo"><a href="#1-博客：github-hexo" class="headerlink" title="1. 博客：github+hexo"></a>1. 博客：github+hexo</h2><p><a href="https://hexo.io/zh-cn/docs/commands.html">https://hexo.io/zh-cn/docs/commands.html</a></p>
+<p><a href="https://yuumiy.github.io/posts/2789.html">https://yuumiy.github.io/posts/2789.html</a></p>
 <p><a href="https://www.jianshu.com/p/9b9c241146bc">https://www.jianshu.com/p/9b9c241146bc</a></p>
 <p> Hexo博客写文章及基本操作 - Unity晚阳的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/156915260">https://zhuanlan.zhihu.com/p/156915260</a></p>
 <h2 id="2-个人主页：-GitHub-jekyll"><a href="#2-个人主页：-GitHub-jekyll" class="headerlink" title="2. 个人主页： GitHub + jekyll"></a>2. 个人主页： GitHub + jekyll</h2><h2 id="3-学术主页：-github-hugo-netlify"><a href="#3-学术主页：-github-hugo-netlify" class="headerlink" title="3. 学术主页： github+hugo+netlify"></a>3. 学术主页： github+hugo+netlify</h2><p> 【Hugo+Netlify】制作英文学术个人简介网站（一）：基础版 - Magical-E的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/110137145">https://zhuanlan.zhihu.com/p/110137145</a></p>
@@ -69,6 +75,70 @@ z = f(x,y)</script><script type="math/tex; mode=display">
 <script type="math/tex; mode=display">
 \bar{x} = {1\over n}\sum_{i=1}^{n} x_i</script><script type="math/tex; mode=display">
 \sigma_{\bar{x}} = {1\over n}\sqrt{\sum_{i=1}^{n} \sigma_{x_i}^2}</script>]]></content>
+  </entry>
+  <entry>
+    <title>ten rules for scientific graphs</title>
+    <url>/posts/69cf.html</url>
+    <content><![CDATA[<h1 id="Ten-Simple-Rules-for-Better-Figures"><a href="#Ten-Simple-Rules-for-Better-Figures" class="headerlink" title="Ten Simple Rules for Better Figures"></a>Ten Simple Rules for Better Figures</h1><p>Scientific visualization is a graphical interface between people and data.</p>
+<ol>
+<li><p>Know Your Audience.(针对不同人群，简略程度不一样)</p>
+</li>
+<li><p>Identify Your Message. (明确要传达的信息)</p>
+</li>
+</ol>
+<p>A figure is meant to express an idea or introduce some facts or a result that would be too long (or nearly impossible) to explain only with words, be it for an article or during a time-limited oral presentation.</p>
+<ol>
+<li>Adapt the Figure to the Support Medium.(根据媒体介质调整图像)</li>
+</ol>
+<p>each type of support medium requires a different figure.</p>
+<ol>
+<li>Captions Are Not Optional.(图注是必要的)</li>
+</ol>
+<p>you cannot explain everything within the figure itself—a figure should be accompanied by a caption.</p>
+<ol>
+<li>Do Not Trust the Defaults.(个性化调整是必需的)</li>
+</ol>
+<p>All plots require at least some manual tuning of the different settings to better express the message.</p>
+<ol>
+<li>Use Color Effectively.(高效运用颜色)</li>
+</ol>
+<p>to highlight some element of a figure, you can use color for this element while keeping other elements gray or black.</p>
+<p> ‘‘Is there any reason this plot is blue and not black?’’ If you don’t know the answer, just keep it black.</p>
+<p> avoid using too many similar colors.</p>
+<ol>
+<li>Do Not Mislead the Reader.</li>
+</ol>
+<p>两个例子：点的大小应用面积表示，而非半径。柱状图的纵轴范围。</p>
+<p>shown as objectively as possible.</p>
+<p>always use the simplest type of plots.</p>
+<ol>
+<li>Avoid ‘‘Chartjunk’’</li>
+</ol>
+<p>any decorations that do not tell the viewer something new must be banned.</p>
+<ol>
+<li>Message Trumps Beauty</li>
+</ol>
+<p>in science, message and readability of the figure is the most important aspect while beauty is only an option.</p>
+<ol>
+<li>Get the Right Tool</li>
+</ol>
+<p>the software or library you’re using to make a visualization can be different from the software or library you’re using to conduct your research and/or analyze your data.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Python 日常实践</title>
@@ -2917,6 +2987,452 @@ egin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}<
 ]]></content>
   </entry>
   <entry>
+    <title>the equation of radiative transfer</title>
+    <url>/posts/442f.html</url>
+    <content><![CDATA[<ol>
+<li>Introduction<br>In most applications of reflectance spectroscopy we are interested in the quantitative amount of light scattered by an infinitely thick layer of large particles.</li>
+</ol>
+<p>one way of calculating this is to consider the microscopic processes that occur when a typical particle interacts with the radiation field inside the medium.</p>
+<p>Collimated light incident on the medium is <strong>partly absorbed and partly scattered</strong> by direct encounter with particles in the upper layers.</p>
+<p>The light that passes between these particles and the light scattered by them illuminates the given particle where it is partly absorbed and scattered into all directions.</p>
+<p>The particle is heated by the light it absorbs and emits thermal radiation.</p>
+<p>Some of the radiation scattered or emitted by the particle into an upward-going direction, passes between particles and escapes from the medium.</p>
+<p>It is the combined light from all the particles that escapes from the upper surface of the medium that we wish to calculate.</p>
+<p>当介质与辐射场共存时，一般有如下几个物理过程:</p>
+<ul>
+<li>自发辐射（ spontaneous emission):介质自发地发射光子</li>
+<li>吸收（ absorption):部分或全部辐射被介质吸收</li>
+<li>受激辐射（ stimulated emission):辐射经过介质时激发介质产生同频率同方向的辐射。</li>
+<li>散射（ scattering):入射光子与介质碰撞后改变方向甚至频率</li>
+</ul>
+<ol>
+<li>Basic Concepts</li>
+</ol>
+<blockquote>
+<p>Let $\bf{J}= \bf{u}_p J$, where $\bf{u}_p$ is a unit vector pointing in the direction of propagation of  $\bf{J}$.</p>
+<ul>
+<li>extinction cross section</li>
+</ul>
+<script type="math/tex; mode=display">
+\sigma_E = P_E/J</script><p>power(功率，单位：W = J/s),irradiance(辐照度，单位：W/m2),所以界面的单位是面积单位，代表概率。<br>$P_E$ is the total amount of power of $\bf{J}$ that is affected by the particle.</p>
+<ul>
+<li>scattering cross section</li>
+</ul>
+<script type="math/tex; mode=display">
+\sigma_S = P_S/J</script><ul>
+<li>absorption cross section</li>
+</ul>
+<script type="math/tex; mode=display">
+\sigma_A = P_A/J</script><p>An amount $P_S$ of $P_E$ is scattered into all directions, and the reminder $P_A$ is absorbed by the particle.</p>
+<script type="math/tex; mode=display">
+P_E = P_S + P_A\\\\
+\sigma_E = \sigma_S + \sigma_A</script><ul>
+<li><strong>geometrical cross-sectional area</strong></li>
+</ul>
+<script type="math/tex; mode=display">
+\sigma = \pi a^2 \qquad \text{,where a is the particle radius.}</script><ul>
+<li>extinction,scattering and absorption efficiencies</li>
+</ul>
+<script type="math/tex; mode=display">
+Q_E = \sigma_E/\sigma,\\\\
+Q_S = \sigma_S/\sigma,\\\\
+Q_A = \sigma_A/\sigma,\\\\</script><script type="math/tex; mode=display">
+\sigma_E = \sigma_S +\sigma_A.</script><ul>
+<li>截面的单位为面积</li>
+<li>系数的单位为1，如大于1，表明比粒子横截面更大范围内的入射光被吸收（散射）</li>
+<li><strong>size parameter</strong>: the ratio of the circumference of the particle to the wavelength.<script type="math/tex; mode=display">
+X = 2\pi a/\lambda= \pi D/\lambda.</script></li>
+</ul>
+</blockquote>
+<p>The ratio of the total amount of power scattered to the total power  removed from the wave is the <strong>particle single-scattering albedo</strong>,$\varpi$.</p>
+<script type="math/tex; mode=display">
+\varpi = P_S/P_E = \sigma_S/\sigma_E=Q_S/Q_E</script><blockquote>
+<p>注：很多文献中，用’A’ 表示。</p>
+</blockquote>
+<p><strong>spat（译作“斯帕特”） function</strong>, or the <strong>effective single-particle absorption thickness</strong></p>
+<script type="math/tex; mode=display">
+W = Q_A/Q_S=\frac{1-\varpi}{\varpi}</script><p>the efficiencies and the single-scattering albedo are functions of wavelength.</p>
+<p>Assume that the particles are randomly oriented and positioned.<br>Let N be the number of particles per unit volume, $\sigma$ be the particle geometric cross-sectional area averaged over all orientations, $Q_E$ be their extinction efficiencies.</p>
+<ul>
+<li>Beer’s Law</li>
+</ul>
+<script type="math/tex; mode=display">{dI(s)\over ds = -I(s)N\sigma Q_E}</script><script type="math/tex; mode=display">I(S) = I(0)exp(-N\sigma Q_E s)</script><ul>
+<li>extinction coefficient</li>
+</ul>
+<p>$E = N\sigma Q_E$</p>
+<p>a mixture of different types of particles with $N_j$ particles of type j per unit volume, geometric cross sections averaged over all orieintations $σ_j$, volumes $υ_j$, and extinction, scattering and absorption efficiencies $Q_{Ej}, Q_{Aj}, and Q_{Sj}$, respectively.</p>
+<ul>
+<li>Number density(total numper of particles per unit volume)</li>
+</ul>
+<p>$N = \sum_j N_j$</p>
+<blockquote>
+<p>average distance $L = N^{-1/3}$</p>
+</blockquote>
+<ul>
+<li>filling factor: the fraction of space within the medium occupied by particles.</li>
+</ul>
+<p>$\phi = \sum_j N_j v_j = N v$</p>
+<blockquote>
+<p>$v = \phi/N$ is the avarage volume of a particle.<br>$1-\phi$ is the porosity.<br>填充因子是体积比.</p>
+</blockquote>
+<ul>
+<li>volume-average particle cross-sectional area</li>
+</ul>
+<p>$\sigma = \left(\sum_j N_j \sigma_j \right) /N$</p>
+<blockquote>
+<p>以上的定义其实是为了理解，真实情况下很难得到一个不规则粒子各个方向的最大截面积的平均值的。</p>
+</blockquote>
+<ul>
+<li>average particle size : the diameter of an equivalent sphere with the average cross-sectional area $\sigma$</li>
+</ul>
+<p>$D = \sqrt{4\sigma/\pi}$</p>
+<ul>
+<li>volume-average extinction efficiency</li>
+</ul>
+<p>$E = \sum_j N_j\sigma_j Q_{Ej} = N\sigma Q_E$</p>
+<blockquote>
+<p>$Q_E = E/{n\sigma}$<br>volume-average absorption and scattering efficiencies in a similar way.</p>
+</blockquote>
+<ul>
+<li>volume angular scattering coefficient</li>
+</ul>
+<blockquote>
+<script type="math/tex; mode=display">
+G(g)=\sum_j N_{j} \sigma_{j} Q_{s j} \Pi_{j}(g)=N \sigma Q_{S} p(g)=S p(g)</script></blockquote>
+<ul>
+<li>volume-average single-particle phase function</li>
+</ul>
+<blockquote>
+<p>$p(g) = G(g)/S$<br>normalization condition:</p>
+<script type="math/tex; mode=display">
+S=(1 / 2) \int_{0}^{\pi} G(g) \sin g d g, \text { and }(1 / 2) \int_{0}^{\pi} p(g) \sin g d g=1</script></blockquote>
+<ul>
+<li>volume-average single scattering albedo</li>
+</ul>
+<p>$w = S/E$</p>
+<ul>
+<li>abeldo factor</li>
+</ul>
+<p>$\gamma = \sqrt{1-w}$</p>
+<ul>
+<li>volume-average asymmetry factor: the average value of the cosine of the scattering angle θ weighted by the particle phase function</li>
+</ul>
+<blockquote>
+<script type="math/tex; mode=display">
+\xi=<\cos \theta>=-\sum_{j} \frac{1}{2} \int_{0}^{\pi} p(g) \cos g \sin g d g</script></blockquote>
+<ul>
+<li>extinction mean free path $\Lambda_E$ is the average distance a photon travels through the medium before being extinguished by either absorption or scattering</li>
+</ul>
+<script type="math/tex; mode=display">\Lambda_{E}=\left(\int_{0}^{\infty} s^{\prime} e^{-E s^{\prime}} d s^{\prime}\right) /\left(\int_{0}^{\infty} e^{-E s^{\prime}} d s^{\prime}\right)=1 / E</script><blockquote>
+<p>the absorption and scattering mean free paths are in the similar way.</p>
+</blockquote>
+<ul>
+<li>transport coefficient</li>
+</ul>
+<p>$S_T = S (1-\xi)$</p>
+<blockquote>
+<p>correspondingly, transport mean free path:$\Lambda_T = 1/(S(1-\xi))$</p>
+</blockquote>
+<p>each of these quantities may depend on both location and direction of the incident radiance.</p>
+<ul>
+<li><strong>optical depth</strong></li>
+</ul>
+<script type="math/tex; mode=display">
+\tau=\int_{z}^{\infty} E\left(z^{\prime}\right) d z^{\prime}=\int_{s}^{\infty} E\left(s^{\prime}\right) d s^{\prime} / \cos \vartheta</script><blockquote>
+<p>由于介质的散射和吸收，一束光穿过介质后其强度为$I = I_0 e^{-\int_0^L E(s)ds}= I_)e^{-\tau}$,入射光强随光深成指数减小，$I/I_0 = e^{-\tau}$.从光的粒子属性出发，则$I/I_0 = nh\nu /n_0 h\nu = n/n_0 = e^{-\tau}$。由此可知，光子穿过光深为$\tau$ 的介质逃逸（不被吸收和散射）的概率为$n/n_0= e^{-\tau}$,那么被吸收和散射的概率为$1-e^{-\tau}$. 当介质的光深很小时，光子被吸收或散射的概率为$1-e^{-\tau}\sim \tau$,而当介质的光深为无穷大时，进入介质的光子基本上都被吸收。<br>$\tau &gt; 1 $的介质称为光学厚的（optical thick）,$\tau &lt; 1 $的介质称为光薄的（optical thin）</p>
+</blockquote>
+<ul>
+<li>transmissivity function</li>
+</ul>
+<script type="math/tex; mode=display">T\left(s_{1}, s_{2}\right)=\exp \left[-\int_{S_{1}}^{s_{2}} E(s, \Omega) d s\right]</script><blockquote>
+<p>$I(s_2) = I(s_1) T(s_1,s_2)$</p>
+<ul>
+<li>在密堆积粒子中，该式需要作出修正</li>
+</ul>
+</blockquote>
+<ul>
+<li>volume emission coefficient $F(s,\Omega)$ as the power emitted per unit volume by the element at position s into unit solid angle about direction $\Omega$.</li>
+</ul>
+<p>$F(s,\Omega) = F_s(s,\Omega) + F_T(s,\Omega)$</p>
+<ul>
+<li>single scattering</li>
+<li><p>thermal emission</p>
+</li>
+<li><p><strong>the general form</strong> of the equation of radiative transfer.</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">\frac{\partial I(s, \Omega)}{\partial s}=-E(s, \Omega) I(s, \Omega)+\frac{S(s, \Omega)}{4 \pi} \int_{4 \pi} I\left(s, \Omega^{\prime}\right) p\left(s, \Omega^{\prime}, \Omega\right) d \Omega^{\prime}+F(s, \Omega)</script><blockquote>
+<ul>
+<li>消光项，入射光被散射和吸收后，在入射方向上减少</li>
+<li>散射项，从其他方向散射到入射方向的光</li>
+<li>发射项，<ul>
+<li>单次散射项</li>
+<li>热发射项，由吸收引起</li>
+<li>荧光发射项，一般不考虑</li>
+<li>受激辐射项，一般也不考虑，或在吸收系数里加一个负项表示<br>定义源函数：<script type="math/tex; mode=display">
+F(z, \Omega)=F(z, \Omega) / E(z)</script></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>the parameters of the equqtion of radiative transfer are determined by the properties of the particles making up the medium.</p>
+<ul>
+<li><strong>the equqtion of radiative transfer(7.38式)</strong></li>
+</ul>
+<script type="math/tex; mode=display">\begin{aligned}
+-\cos \vartheta \frac{\partial I(\tau, \Omega)}{\partial \tau}=&-I(\tau, \Omega)+\frac{w(\tau)}{4 \pi} \int_{4 \pi} I\left(\tau, \Omega^{\prime}\right) p\left(\tau, g^{\prime}\right) d \Omega^{\prime} \\\\
+&+J \frac{w(\tau)}{4 \pi} p(\tau, g) e^{-\tau / \cos i}+F_{T}(\tau, \Omega)
+\end{aligned}</script><blockquote>
+<p>水平分层介质;<br>volume single-scattering albedo: $w(z) = S(z)/E(z)$</p>
+</blockquote>
+<ol>
+<li>Radiative transfer in a medium of arbitrary particle separation</li>
+</ol>
+<ul>
+<li>Fresnel diffraction in particulate media</li>
+<li>Coherent effects in a close-packed medium</li>
+<li>The transmissivity of a particulate medium</li>
+<li>Radiative transfer in a particulate medium of arbitrary filling factor</li>
+<li>Mean free paths in a particulate medium</li>
+</ul>
+<ol>
+<li>Methods of solutio of radiactive-transfer problems</li>
+</ol>
+<p><strong>求解辐射传输方程(7.5节）</strong></p>
+<blockquote>
+<p>不能精确求解，只有数值解和近似解析解</p>
+</blockquote>
+<ul>
+<li>the Monte Carlo Method</li>
+<li>the radiosity method</li>
+<li>the doubling method</li>
+<li>the Eddington approximation</li>
+<li>Integral equation formulation</li>
+<li>the multistream method</li>
+</ul>
+<p>the multistream method is also called discret ordiantes method.<br>The sphere of all propagation directions $\Omega$ is broken up into N regions of solid angle $\Delta\Omega_j$ , which need not be equal. The equation of radiative transfer, equation (7.38), is integrated in solid angle over each of the regions $\Delta\Omega_j$ and each resulting equation divided by $\Delta\Omega_j$, giving N equations of the form</p>
+<script type="math/tex; mode=display">
+\begin{array}{c}
+-\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} \frac{\partial I(\tau, \Omega)}{\partial \tau} \cos \vartheta d \Omega=-\frac{1}{\Delta \Omega_{j}} \frac{\partial}{\partial \tau} \int_{\Delta \Omega j} I(\tau, \Omega) \cos \vartheta d \Omega \\\\
+=-\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} I(\tau, \Omega) d \Omega+\frac{w}{4 \pi} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} \int_{4 \pi} p\left(g^{\prime}\right) I\left(\tau, \Omega^{\prime}\right) d \Omega^{\prime} d \Omega \\\\
++J \frac{w}{4 \pi} e^{-\tau / \cos i} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} p(g) d \Omega+\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} F_{T}(\tau) d \Omega
+\end{array}</script><p>Define the following average quantities for the jth zone:</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+I_{j}(\tau) &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} I(\tau, \Omega) d \Omega \\\\
+\mu_{j} &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} \cos \vartheta d \Omega \\\\
+p_{k j} &=\frac{1}{\Delta \Omega_{k}} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega k} \int_{\Delta \Omega j} p\left(g^{\prime}\right) d \Omega^{\prime} d \Omega \\\\
+F_{T j}(\tau) &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} F_{T}(\tau, \Omega) d \Omega
+\end{aligned}</script><p><strong>Note that $p_{kj}$ is the fraction of the radiance traveling in the direction of the center of region k that is scattered into region j.</strong></p>
+<p>Then the equation for the intensity in the jth directional region becomes</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\mu_{j} d I_{j}(\tau) / d \tau=&-I_{j}(\tau)+(w / 4 \pi) \sum_{k=1}^{\mathcal{N}} \Delta \Omega_{k} p_{k j} I_{k}(\tau) \\\\
+&+J \frac{w}{4 \pi} p_{m} e^{-\tau / \cos i}+F_{T j}(\tau)
+\end{aligned}</script><p>where the region $\Omega_m$ contains the direction to the collimated source, and j takes all integer values between 1 and N.</p>
+<blockquote>
+<p>$p_m = \sum_{k=1}^N p_{mk}$</p>
+</blockquote>
+<p>Thus, the partial integrodifferential equation (7.38) is replaced by a series of N linear, first-order, coupled differential equations that are amenable to well-established numerical solution.</p>
+<p>the method of invariance</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hapke Model</title>
+    <url>/posts/5d66.html</url>
+    <content><![CDATA[<p><strong>Hapke’s photometric model</strong>（地大师姐推荐文章(Sato, Robinson et al. 2014)）：也见（Hapke书9.4节（9.47）式）</p>
+<script type="math/tex; mode=display">
+I / F=L S\left(i_{e}, e_{e}\right) K \frac{w}{4}\left[p(g)\left(1+B_{S 0} B_{S}(g)\right)+M\left(i_{e}, e_{e}\right)\right]\left[1+B_{C 0} B_{C}(g)\right] S(i, e, \psi)</script><blockquote>
+<p>注：$I/F$为radiance factor，而reflectance factor(REFF)为${I/F\over \pi}$,这里的I/F就是一种表示方法（RADF），不要分开看。</p>
+<ol>
+<li>LS is the Lommel-Seeliger function,$i_e$ and $e_e$ are effective angle of incidence and emission respectively</li>
+<li>K is porosity factor,$\phi$,[0,1]</li>
+<li>w is single scattering albedo,[0,1]</li>
+<li>p(g) is phase function:b,c；The probability that a photon will be scattered in the direction g is given by p(g)。b,[0,1];c,p(g)&gt;0;</li>
+<li>$B_{S0}$ is amplitude of Shadow Hiding Opposition Effect (SHOE),Bs,[0,1]</li>
+<li>$B_S(g)$ is SHOE function,$h_S$</li>
+<li>$M(i_e, e_e)$ is Isotropic Multiple-Scattering Approximation (IMSA)</li>
+<li>$B_{C0}$ is amplitude of Coherent Backscatter Opposition Effect (CBOE)，[0,1]</li>
+<li>$B_C(g)$ is CBOE function,$h_C$</li>
+<li><code>S(i,e,𝜓)</code> is shadowing function, and 𝜓 is azimuthal angle between the planes of incidence and emergence；The term $\bar{\theta}_p$ is the shadowing function and corrects for macroscopic roughness of the surface and depends on mean slope angle 𝜃.</li>
+</ol>
+</blockquote>
+<ol>
+<li>Henyey-Greenstein double-lobed single particle phase function</li>
+</ol>
+<script type="math/tex; mode=display">
+p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.<br>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.<br>c&gt;0,后向；c&lt;0 前向</p>
+<p>b控制形状：b越大，侧向散射越弱（b=1例外）</p>
+<p>$p(g)=1$ 表示各向同性；$p(g)\neq 1$ 表示各项异性；$p(g) =0$ 表示完全吸收。</p>
+<ul>
+<li>‘hockey-stick” diagram</li>
+</ul>
+<script type="math/tex; mode=display">
+c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script><p>Narrow lobes have b values close to 1, wide lobes have values &lt;&lt; 1, and isotropically scattering particles have b = 0; 0 &lt;= b &lt; 1.</p>
+<p>Hapke2012,p121</p>
+</blockquote>
+<ol>
+<li>The SHOE function BS(g) is given by</li>
+</ol>
+<script type="math/tex; mode=display">
+B_{S}(g)=1 /\left[1+\tan (g / 2) / h_{S}\right]</script><blockquote>
+<p>$h_S$ is the angular width parameter of SHOE,</p>
+</blockquote>
+<ol>
+<li>The IMSA function $M(i_e, e_e)$ is given by</li>
+</ol>
+<script type="math/tex; mode=display">
+M\left(i_{e}, e_{e}\right)=H\left(\frac{\cos \left(i_{e}\right)}{K}, w\right) H\left(\frac{\cos \left(e_{e}\right)}{K}, w\right)-1</script><blockquote>
+<p>where H(x,w) is Ambartsumian-Chandrasekhar H function, which is approximated by</p>
+<script type="math/tex; mode=display">
+H(x, w) \simeq\left\{1-w x\left[r_{0}+\frac{1-2 r_{0} x}{2} \ln \left(\frac{1+x}{x}\right)\right]\right\}^{-1}</script><p>简化版：</p>
+<script type="math/tex; mode=display">H(x)={1+2x\over 1+2\gamma x}</script><p>$r_0$ is diffusive reflectance, given by</p>
+<script type="math/tex; mode=display">
+r_{0}=\frac{1-\sqrt{1-w}}{1+\sqrt{1-w}}</script></blockquote>
+<ol>
+<li>The CBOE function $B_C(g)$ is given by</li>
+</ol>
+<script type="math/tex; mode=display">
+B_{C}(g)=\frac{1+\frac{1-\exp \left[-\tan (g / 2) / h_{C}\right]}{\tan (g / 2) / h_{C}}}{2\left[1+\tan (g / 2) / h_{C}\right]^{2}}</script><blockquote>
+<p>where $h_C$ is angular width of CBOE</p>
+<ul>
+<li>$h_C = \lambda/4\pi\Lambda$;$\Lambda$ is the transport mean free path in the medium.</li>
+</ul>
+</blockquote>
+<ol>
+<li>The porosity factor K is</li>
+</ol>
+<script type="math/tex; mode=display">
+K=\frac{-\ln \left(1-1.209 \phi^{2 / 3}\right)}{1.209 \phi^{2 / 3}}</script><blockquote>
+<p>where 𝜙 is filling factor that is equivalent to 1− porosity. The K monotonically increases with the filling factor 𝜙 (= 1− porosity)</p>
+<p>孔隙度因子K不同于孔隙度（porosity）</p>
+</blockquote>
+<ol>
+<li>The $i_e, e_e,$(注：下标e表示effective) and the <strong>shadowing function</strong> S(i, e,𝜓) are the functions of $\bar{\theta}_p$ (the mean slope angle), the effective value of the photometric roughness.宏观粗糙度。</li>
+</ol>
+<p>公式很复杂，待补充</p>
+<p>拟合数据得到如上九个参数，这些参数中有些与物性有关</p>
+<p><strong>简化的5参数Hapke模型(地大师姐)</strong>：SHOE-only.</p>
+<script type="math/tex; mode=display">
+I / F={\cos i \over \cos i+\cos e}\frac{w}{4}\left[p(g)\left(1+{B_{S 0} \over 1+\tan(g/2)/h_S}\right)+H(\cos i)H(\cos e)-1\right]</script><blockquote>
+<p>参数范围：0≤b≤1，-1≤c≤1，0≤w≤1，$0\leq B_{S0} \leq 2$，$0\leq h_S \leq 1$</p>
+</blockquote>
+<p>或者，CBOE-only</p>
+<blockquote>
+<p>在不同的应用场景下，SHOE与CBOE对opposition effects 的贡献不一样，因此，按需选择。得到5参数的hapke模型</p>
+</blockquote>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\begin{array}{l}
+\text {IOF} / L S=\frac{w}{4}\left[p(g)+H\left(\mu_{0}, w\right) H(\mu, w)-1\right]\left[1+B_{C 0} B_{C}\left(g, h_{c}\right)\right] S(i, e, \theta) \\
+L S=\mu_{0} /\left(\mu_{0}+\mu\right)
+\end{array}
+\end{aligned}</script><p><strong>简化hapke模型（林洪磊）:仅3个参数，w,b,c</strong></p>
+<blockquote>
+<p>不考虑冲效应，但考虑多次散射，因此得到3参数的hapke模型，</p>
+<p>K= 1，因为月壤最上层的填充率未知</p>
+<p>忽略SHOE和COBE，因为冲效应仅仅发生在小相角处，而第十月昼的相角大于50°</p>
+</blockquote>
+<script type="math/tex; mode=display">
+r={\cos i \over \cos i+\cos e}\frac{w}{4\pi}\left[p(g)+H(\cos i)H(\cos e)-1\right]</script><p><strong>若继续不考虑多次散射，则，hapke模型简化为LS模型</strong></p>
+<p>Hapke,2012:</p>
+<ul>
+<li>Single scattering:the Lommel-Seeliger law（p197)</li>
+</ul>
+<p>$r = {\varpi \over 4\pi}{\mu_0 \over \mu_0 +\mu}f(g)$</p>
+<ul>
+<li>the bidirectional reflectance of a sparse medium of isotropic scatters(p197)</li>
+</ul>
+<p>二流近似</p>
+<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}{1+2\mu_0 \over 1+2\gamma\mu_0}{1+2\mu \over 1+2\gamma\mu}$</p>
+<p>变分法</p>
+<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}H(\mu_0)H(\mu)$</p>
+<ul>
+<li>the isotropic multiple-scattering approximation(IMSA)</li>
+</ul>
+<p>$I_{SS} = J{\varpi \over 4\pi}{\mu_0 \over \mu_0 +\mu}p(g)$</p>
+<p>$I_{MS} = J{\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}[H(\mu_0)H(\mu)-1]$</p>
+<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}[p(g)+H(\mu_0)H(\mu)-1]$</p>
+<p>for  a semi-infinite medium, the multiply scattered portion is much less sensitive to the particle phase function than the singly scattered fraction.</p>
+<p>The brighter the surface, the more times the average photon is scattered before emerging from the surface, causing directional effects to be averaged out and the multiply scattered intensity distribution to closely approach the isotropic case.</p>
+<p>Since the single-scattering term can be evaluated exactly for an arbitrary phase function and the multiply scattered term is relatively insensitive to phase function, a first-order expression for nonisotropic scatterers can be obtained by using the exact expression for the single-scattered term but retaining the isotropic solution for the multiply-scattered term.</p>
+<p>多次散射项不像单次散射项那样对相函数明显，通常，表面越亮，多次散射的次数越多，其方向性就被平均掉了，所以一般多次散射项都当做各向同性处理。</p>
+<p>相函数有多种形式：</p>
+<ul>
+<li>HG函数；</li>
+</ul>
+<script type="math/tex; mode=display">
+p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<p>b = −0.17, c = 0.70。</p>
+</blockquote>
+<ul>
+<li>单参数HG函数</li>
+</ul>
+<script type="math/tex; mode=display">
+p(g)=\frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<ul>
+<li>$(1/4\pi)\int_{4\pi}p(g)d\Omega = 1$</li>
+<li>$\theta = \pi - g$</li>
+<li>参数b为余弦不对称因子：$b = &lt;\cos \theta&gt;=-&lt;\cos g&gt;$</li>
+<li>b=0时，$p(g)=1$,各向同性</li>
+<li>b&gt;0时，</li>
+</ul>
+</blockquote>
+<ul>
+<li>双参数HG函数</li>
+</ul>
+<script type="math/tex; mode=display">
+p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<ul>
+<li>第一项为后向项，第二项为前向项；</li>
+</ul>
+</blockquote>
+<ul>
+<li>三参数HG函数：$b_1,b_2,c$</li>
+</ul>
+<ul>
+<li>普通多项式（三阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(g)=p_{1} g^{3}+p_{2} g^{2}+p_{3} g+p_{4}</script><ul>
+<li>普通多项式（四阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>普通多项式（六阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha, \lambda)=\mathrm{A}_{0}+\mathrm{A}_{1} \alpha+\mathrm{A}_{2} \mathrm{a}^{2}+\mathrm{A}_{3} \mathrm{\alpha}^{3}+\mathrm{A}_{4} \mathrm{\alpha}^{4}+\mathrm{A}_{5} \mathrm{\alpha}^{5}+\mathrm{A}_{6} \mathrm{\alpha}^{6}</script><ul>
+<li>普通多项式+指数项（指数项模拟背散射效应）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=b_{0} e^{-b_{1} \alpha}+a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>勒让德多项式</li>
+</ul>
+<script type="math/tex; mode=display">
+P(g)=1+b \times \cos (g)+c \times\left(1.5 \times \cos ^{2}(g)-0.5\right)</script><p>$P_1 = \cos \theta; P_2 = {1\over 2}(3\cos^2\theta -1)$</p>
+<ul>
+<li>指数形式</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
+<li>其他形式：</li>
+</ul>
+<blockquote>
+<p>三阶多项式<br>一阶勒让德多项式<br>线性双项HG函数？</p>
+</blockquote>
+<p><strong>基于得到的相函数做光度校正</strong>：</p>
+<ul>
+<li>比值法</li>
+<li>解单次反照率：因为多次散射项中包含单次反照率，因此不能直接作比。</li>
+</ul>
+<blockquote>
+<p>以上所有相函数都可用比值法，但HG函数和勒让德多项式来源于Hapke模型，因此还可以基于hapke模型作光度校正。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>Hapke函数</title>
     <url>/posts/d133.html</url>
     <content><![CDATA[<p><strong>photometric correction</strong>： 将反射率校正到相同的光照几何条件下，一般为入射角30°，出射角0°（NASA实验室所采用的）。比值法</p>
@@ -3265,201 +3781,6 @@ f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
 ]]></content>
   </entry>
   <entry>
-    <title>Hapke Model</title>
-    <url>/posts/5d66.html</url>
-    <content><![CDATA[<p><strong>Hapke’s photometric model</strong>（地大师姐推荐文章(Sato, Robinson et al. 2014)）：也见（Hapke书9.4节（9.47）式）</p>
-<script type="math/tex; mode=display">
-I / F=L S\left(i_{e}, e_{e}\right) K \frac{w}{4}\left[p(g)\left(1+B_{S 0} B_{S}(g)\right)+M\left(i_{e}, e_{e}\right)\right]\left[1+B_{C 0} B_{C}(g)\right] S(i, e, \psi)</script><blockquote>
-<p>注：$I/F$为radiance factor，而reflectance factor(REFF)为${I/F\over \pi}$,这里的I/F就是一种表示方法（RADF），不要分开看。</p>
-<ol>
-<li>LS is the Lommel-Seeliger function,$i_e$ and $e_e$ are effective angle of incidence and emission respectively</li>
-<li>K is porosity factor,$\phi$,[0,1]</li>
-<li>w is single scattering albedo,[0,1]</li>
-<li>p(g) is phase function:b,c；The probability that a photon will be scattered in the direction g is given by p(g)。b,[0,1];c,p(g)&gt;0;</li>
-<li>$B_{S0}$ is amplitude of Shadow Hiding Opposition Effect (SHOE),Bs,[0,1]</li>
-<li>$B_S(g)$ is SHOE function,$h_S$</li>
-<li>$M(i_e, e_e)$ is Isotropic Multiple-Scattering Approximation (IMSA)</li>
-<li>$B_{C0}$ is amplitude of Coherent Backscatter Opposition Effect (CBOE)，[0,1]</li>
-<li>$B_C(g)$ is CBOE function,$h_C$</li>
-<li><code>S(i,e,𝜓)</code> is shadowing function, and 𝜓 is azimuthal angle between the planes of incidence and emergence；The term $\bar{\theta}_p$ is the shadowing function and corrects for macroscopic roughness of the surface and depends on mean slope angle 𝜃.</li>
-</ol>
-</blockquote>
-<ol>
-<li>Henyey-Greenstein double-lobed single particle phase function</li>
-</ol>
-<script type="math/tex; mode=display">
-p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
-<p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.<br>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.<br>c&gt;0,后向；c&lt;0 前向</p>
-<p>b控制形状：b越大，侧向散射越弱（b=1例外）</p>
-<p>$p(g)=1$ 表示各向同性；$p(g)\neq 1$ 表示各项异性；$p(g) =0$ 表示完全吸收。</p>
-<ul>
-<li>‘hockey-stick” diagram</li>
-</ul>
-<script type="math/tex; mode=display">
-c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script><p>Narrow lobes have b values close to 1, wide lobes have values &lt;&lt; 1, and isotropically scattering particles have b = 0; 0 &lt;= b &lt; 1.</p>
-<p>Hapke2012,p121</p>
-</blockquote>
-<ol>
-<li>The SHOE function BS(g) is given by</li>
-</ol>
-<script type="math/tex; mode=display">
-B_{S}(g)=1 /\left[1+\tan (g / 2) / h_{S}\right]</script><blockquote>
-<p>$h_S$ is the angular width parameter of SHOE,</p>
-</blockquote>
-<ol>
-<li>The IMSA function $M(i_e, e_e)$ is given by</li>
-</ol>
-<script type="math/tex; mode=display">
-M\left(i_{e}, e_{e}\right)=H\left(\frac{\cos \left(i_{e}\right)}{K}, w\right) H\left(\frac{\cos \left(e_{e}\right)}{K}, w\right)-1</script><blockquote>
-<p>where H(x,w) is Ambartsumian-Chandrasekhar H function, which is approximated by</p>
-<script type="math/tex; mode=display">
-H(x, w) \simeq\left\{1-w x\left[r_{0}+\frac{1-2 r_{0} x}{2} \ln \left(\frac{1+x}{x}\right)\right]\right\}^{-1}</script><p>简化版：</p>
-<script type="math/tex; mode=display">H(x)={1+2x\over 1+2\gamma x}</script><p>$r_0$ is diffusive reflectance, given by</p>
-<script type="math/tex; mode=display">
-r_{0}=\frac{1-\sqrt{1-w}}{1+\sqrt{1-w}}</script></blockquote>
-<ol>
-<li>The CBOE function $B_C(g)$ is given by</li>
-</ol>
-<script type="math/tex; mode=display">
-B_{C}(g)=\frac{1+\frac{1-\exp \left[-\tan (g / 2) / h_{C}\right]}{\tan (g / 2) / h_{C}}}{2\left[1+\tan (g / 2) / h_{C}\right]^{2}}</script><blockquote>
-<p>where $h_C$ is angular width of CBOE</p>
-<ul>
-<li>$h_C = \lambda/4\pi\Lambda$;$\Lambda$ is the transport mean free path in the medium.</li>
-</ul>
-</blockquote>
-<ol>
-<li>The porosity factor K is</li>
-</ol>
-<script type="math/tex; mode=display">
-K=\frac{-\ln \left(1-1.209 \phi^{2 / 3}\right)}{1.209 \phi^{2 / 3}}</script><blockquote>
-<p>where 𝜙 is filling factor that is equivalent to 1− porosity. The K monotonically increases with the filling factor 𝜙 (= 1− porosity)</p>
-<p>孔隙度因子K不同于孔隙度（porosity）</p>
-</blockquote>
-<ol>
-<li>The $i_e, e_e,$(注：下标e表示effective) and the <strong>shadowing function</strong> S(i, e,𝜓) are the functions of $\bar{\theta}_p$ (the mean slope angle), the effective value of the photometric roughness.宏观粗糙度。</li>
-</ol>
-<p>公式很复杂，待补充</p>
-<p>拟合数据得到如上九个参数，这些参数中有些与物性有关</p>
-<p><strong>简化的5参数Hapke模型(地大师姐)</strong>：SHOE-only.</p>
-<script type="math/tex; mode=display">
-I / F={\cos i \over \cos i+\cos e}\frac{w}{4}\left[p(g)\left(1+{B_{S 0} \over 1+\tan(g/2)/h_S}\right)+H(\cos i)H(\cos e)-1\right]</script><blockquote>
-<p>参数范围：0≤b≤1，-1≤c≤1，0≤w≤1，$0\leq B_{S0} \leq 2$，$0\leq h_S \leq 1$</p>
-</blockquote>
-<p>或者，CBOE-only</p>
-<blockquote>
-<p>在不同的应用场景下，SHOE与CBOE对opposition effects 的贡献不一样，因此，按需选择。得到5参数的hapke模型</p>
-</blockquote>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\begin{array}{l}
-\text {IOF} / L S=\frac{w}{4}\left[p(g)+H\left(\mu_{0}, w\right) H(\mu, w)-1\right]\left[1+B_{C 0} B_{C}\left(g, h_{c}\right)\right] S(i, e, \theta) \\
-L S=\mu_{0} /\left(\mu_{0}+\mu\right)
-\end{array}
-\end{aligned}</script><p><strong>简化hapke模型（林洪磊）:仅3个参数，w,b,c</strong></p>
-<blockquote>
-<p>不考虑冲效应，但考虑多次散射，因此得到3参数的hapke模型，</p>
-<p>K= 1，因为月壤最上层的填充率未知</p>
-<p>忽略SHOE和COBE，因为冲效应仅仅发生在小相角处，而第十月昼的相角大于50°</p>
-</blockquote>
-<script type="math/tex; mode=display">
-r={\cos i \over \cos i+\cos e}\frac{w}{4\pi}\left[p(g)+H(\cos i)H(\cos e)-1\right]</script><p><strong>若继续不考虑多次散射，则，hapke模型简化为LS模型</strong></p>
-<p>Hapke,2012:</p>
-<ul>
-<li>Single scattering:the Lommel-Seeliger law（p197)</li>
-</ul>
-<p>$r = {\varpi \over 4\pi}{\mu_0 \over \mu_0 +\mu}f(g)$</p>
-<ul>
-<li>the bidirectional reflectance of a sparse medium of isotropic scatters(p197)</li>
-</ul>
-<p>二流近似</p>
-<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}{1+2\mu_0 \over 1+2\gamma\mu_0}{1+2\mu \over 1+2\gamma\mu}$</p>
-<p>变分法</p>
-<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}H(\mu_0)H(\mu)$</p>
-<ul>
-<li>the isotropic multiple-scattering approximation(IMSA)</li>
-</ul>
-<p>$I_{SS} = J{\varpi \over 4\pi}{\mu_0 \over \mu_0 +\mu}p(g)$</p>
-<p>$I_{MS} = J{\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}[H(\mu_0)H(\mu)-1]$</p>
-<p>$r = {\varpi \over 4 \pi}{\mu_0\over \mu_0 +\mu}[p(g)+H(\mu_0)H(\mu)-1]$</p>
-<p>for  a semi-infinite medium, the multiply scattered portion is much less sensitive to the particle phase function than the singly scattered fraction.</p>
-<p>The brighter the surface, the more times the average photon is scattered before emerging from the surface, causing directional effects to be averaged out and the multiply scattered intensity distribution to closely approach the isotropic case.</p>
-<p>Since the single-scattering term can be evaluated exactly for an arbitrary phase function and the multiply scattered term is relatively insensitive to phase function, a first-order expression for nonisotropic scatterers can be obtained by using the exact expression for the single-scattered term but retaining the isotropic solution for the multiply-scattered term.</p>
-<p>多次散射项不像单次散射项那样对相函数明显，通常，表面越亮，多次散射的次数越多，其方向性就被平均掉了，所以一般多次散射项都当做各向同性处理。</p>
-<p>相函数有多种形式：</p>
-<ul>
-<li>HG函数；</li>
-</ul>
-<script type="math/tex; mode=display">
-p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
-<p>b = −0.17, c = 0.70。</p>
-</blockquote>
-<ul>
-<li>单参数HG函数</li>
-</ul>
-<script type="math/tex; mode=display">
-p(g)=\frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
-<ul>
-<li>$(1/4\pi)\int_{4\pi}p(g)d\Omega = 1$</li>
-<li>$\theta = \pi - g$</li>
-<li>参数b为余弦不对称因子：$b = &lt;\cos \theta&gt;=-&lt;\cos g&gt;$</li>
-<li>b=0时，$p(g)=1$,各向同性</li>
-<li>b&gt;0时，</li>
-</ul>
-</blockquote>
-<ul>
-<li>双参数HG函数</li>
-</ul>
-<script type="math/tex; mode=display">
-p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
-<ul>
-<li>第一项为后向项，第二项为前向项；</li>
-</ul>
-</blockquote>
-<ul>
-<li>三参数HG函数：$b_1,b_2,c$</li>
-</ul>
-<ul>
-<li>普通多项式（三阶）</li>
-</ul>
-<script type="math/tex; mode=display">
-f(g)=p_{1} g^{3}+p_{2} g^{2}+p_{3} g+p_{4}</script><ul>
-<li>普通多项式（四阶）</li>
-</ul>
-<script type="math/tex; mode=display">
-f(\alpha)=a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
-<li>普通多项式（六阶）</li>
-</ul>
-<script type="math/tex; mode=display">
-f(\alpha, \lambda)=\mathrm{A}_{0}+\mathrm{A}_{1} \alpha+\mathrm{A}_{2} \mathrm{a}^{2}+\mathrm{A}_{3} \mathrm{\alpha}^{3}+\mathrm{A}_{4} \mathrm{\alpha}^{4}+\mathrm{A}_{5} \mathrm{\alpha}^{5}+\mathrm{A}_{6} \mathrm{\alpha}^{6}</script><ul>
-<li>普通多项式+指数项（指数项模拟背散射效应）</li>
-</ul>
-<script type="math/tex; mode=display">
-f(\alpha)=b_{0} e^{-b_{1} \alpha}+a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
-<li>勒让德多项式</li>
-</ul>
-<script type="math/tex; mode=display">
-P(g)=1+b \times \cos (g)+c \times\left(1.5 \times \cos ^{2}(g)-0.5\right)</script><p>$P_1 = \cos \theta; P_2 = {1\over 2}(3\cos^2\theta -1)$</p>
-<ul>
-<li>指数形式</li>
-</ul>
-<script type="math/tex; mode=display">
-f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
-<li>其他形式：</li>
-</ul>
-<blockquote>
-<p>三阶多项式<br>一阶勒让德多项式<br>线性双项HG函数？</p>
-</blockquote>
-<p><strong>基于得到的相函数做光度校正</strong>：</p>
-<ul>
-<li>比值法</li>
-<li>解单次反照率：因为多次散射项中包含单次反照率，因此不能直接作比。</li>
-</ul>
-<blockquote>
-<p>以上所有相函数都可用比值法，但HG函数和勒让德多项式来源于Hapke模型，因此还可以基于hapke模型作光度校正。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>Opposition Effects</title>
     <url>/posts/eecf.html</url>
     <content><![CDATA[<p>1.<strong>Opposition Effect</strong></p>
@@ -3736,273 +4057,63 @@ h> \lambda \sec\theta /4</script><p>Note that the roughness criteria depend on �
   <entry>
     <title>Hockey-Stick relation</title>
     <url>/posts/459d.html</url>
-    <content><![CDATA[<ol>
-<li>Henyey-Greenstein function</li>
-</ol>
-<script type="math/tex; mode=display">p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.<br>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.<br>c&gt;0,后向；c&lt;0 前向</p>
+    <content><![CDATA[<h2 id="Henyey-Greenstein-function"><a href="#Henyey-Greenstein-function" class="headerlink" title="Henyey-Greenstein function"></a><strong>Henyey-Greenstein function</strong></h2><script type="math/tex; mode=display">p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.</p>
+<p>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.</p>
+<p>c&gt;0,后向；c&lt;0 前向</p>
 <p>b控制形状：b越大，侧向散射越弱（b=1例外）</p>
 <p>Narrow lobes have b values close to 1, wide lobes have values &lt;&lt; 1, and isotropically scattering particles have b = 0; 0 &lt;= b &lt; 1.</p>
 <p>$p(g)=1$ 表示各向同性；$p(g)\neq 1$ 表示各项异性；$p(g) =0$ 表示完全吸收。</p>
+</blockquote>
 <p>Normalized: ${1\over 4\pi} \int_0^\pi p(g)2\pi \sin g d g = 1$</p>
 <p>Asymmetry factor:$&lt;\cos \theta&gt; = {1\over 4\pi} \int_0^\pi \cos\theta p(\theta)2\pi \sin \theta d \theta = -bc$</p>
 <p>for  a semi-infinite medium, the multiply scattered portion is much less sensitive to the particle phase function than the singly scattered fraction.</p>
 <p>The brighter the surface, the more times the average photon is scattered before emerging from the surface, causing directional effects to be averaged out and the multiply scattered intensity distribution to closely approach the isotropic case.</p>
 <p>Since the single-scattering term can be evaluated exactly for an arbitrary phase function and the multiply scattered term is relatively insensitive to phase function, a first-order expression for nonisotropic scatterers can be obtained by using the exact expression for the single-scattered term but retaining the isotropic solution for the multiply-scattered term.</p>
 <p>多次散射项不像单次散射项那样对相函数明显，通常，表面越亮，多次散射的次数越多，其方向性就被平均掉了，所以一般多次散射项都当做各向同性处理。</p>
-<ol>
-<li>hockey stick relation</li>
-</ol>
-<script type="math/tex; mode=display">c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script>]]></content>
-  </entry>
-  <entry>
-    <title>the equation of radiative transfer</title>
-    <url>/posts/442f.html</url>
-    <content><![CDATA[<ol>
-<li>Introduction<br>In most applications of reflectance spectroscopy we are interested in the quantitative amount of light scattered by an infinitely thick layer of large particles.</li>
-</ol>
-<p>one way of calculating this is to consider the microscopic processes that occur when a typical particle interacts with the radiation field inside the medium.</p>
-<p>Collimated light incident on the medium is <strong>partly absorbed and partly scattered</strong> by direct encounter with particles in the upper layers.</p>
-<p>The light that passes between these particles and the light scattered by them illuminates the given particle where it is partly absorbed and scattered into all directions.</p>
-<p>The particle is heated by the light it absorbs and emits thermal radiation.</p>
-<p>Some of the radiation scattered or emitted by the particle into an upward-going direction, passes between particles and escapes from the medium.</p>
-<p>It is the combined light from all the particles that escapes from the upper surface of the medium that we wish to calculate.</p>
-<p>当介质与辐射场共存时，一般有如下几个物理过程:</p>
+<h2 id="hockey-stick-relation"><a href="#hockey-stick-relation" class="headerlink" title="hockey stick relation"></a>hockey stick relation</h2><script type="math/tex; mode=display">c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script><h2 id="other-phase-function"><a href="#other-phase-function" class="headerlink" title="other phase function"></a>other phase function</h2><ul>
+<li>单参数HG函数</li>
+</ul>
+<script type="math/tex; mode=display">
+p(g)=\frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
 <ul>
-<li>自发辐射（ spontaneous emission):介质自发地发射光子</li>
-<li>吸收（ absorption):部分或全部辐射被介质吸收</li>
-<li>受激辐射（ stimulated emission):辐射经过介质时激发介质产生同频率同方向的辐射。</li>
-<li>散射（ scattering):入射光子与介质碰撞后改变方向甚至频率</li>
-</ul>
-<ol>
-<li>Basic Concepts</li>
-</ol>
-<blockquote>
-<p>Let $\bf{J}= \bf{u}_p J$, where $\bf{u}_p$ is a unit vector pointing in the direction of propagation of  $\bf{J}$.</p>
-<ul>
-<li>extinction cross section</li>
-</ul>
-<script type="math/tex; mode=display">
-\sigma_E = P_E/J</script><p>power(功率，单位：W = J/s),irradiance(辐照度，单位：W/m2),所以界面的单位是面积单位，代表概率。<br>$P_E$ is the total amount of power of $\bf{J}$ that is affected by the particle.</p>
-<ul>
-<li>scattering cross section</li>
-</ul>
-<script type="math/tex; mode=display">
-\sigma_S = P_S/J</script><ul>
-<li>absorption cross section</li>
-</ul>
-<script type="math/tex; mode=display">
-\sigma_A = P_A/J</script><p>An amount $P_S$ of $P_E$ is scattered into all directions, and the reminder $P_A$ is absorbed by the particle.</p>
-<script type="math/tex; mode=display">
-P_E = P_S + P_A\\\\
-\sigma_E = \sigma_S + \sigma_A</script><ul>
-<li><strong>geometrical cross-sectional area</strong></li>
-</ul>
-<script type="math/tex; mode=display">
-\sigma = \pi a^2 \qquad \text{,where a is the particle radius.}</script><ul>
-<li>extinction,scattering and absorption efficiencies</li>
-</ul>
-<script type="math/tex; mode=display">
-Q_E = \sigma_E/\sigma,\\\\
-Q_S = \sigma_S/\sigma,\\\\
-Q_A = \sigma_A/\sigma,\\\\</script><script type="math/tex; mode=display">
-\sigma_E = \sigma_S +\sigma_A.</script><ul>
-<li>截面的单位为面积</li>
-<li>系数的单位为1，如大于1，表明比粒子横截面更大范围内的入射光被吸收（散射）</li>
-<li><strong>size parameter</strong>: the ratio of the circumference of the particle to the wavelength.<script type="math/tex; mode=display">
-X = 2\pi a/\lambda= \pi D/\lambda.</script></li>
+<li>$(1/4\pi)\int_{4\pi}p(g)d\Omega = 1$</li>
+<li>$\theta = \pi - g$</li>
+<li>参数b为余弦不对称因子：$b = &lt;\cos \theta&gt;=-&lt;\cos g&gt;$</li>
+<li>b=0时，$p(g)=1$,各向同性</li>
 </ul>
 </blockquote>
-<p>The ratio of the total amount of power scattered to the total power  removed from the wave is the <strong>particle single-scattering albedo</strong>,$\varpi$.</p>
+<ul>
+<li>普通多项式（三阶）</li>
+</ul>
 <script type="math/tex; mode=display">
-\varpi = P_S/P_E = \sigma_S/\sigma_E=Q_S/Q_E</script><blockquote>
-<p>注：很多文献中，用’A’ 表示。</p>
-</blockquote>
-<p><strong>spat（译作“斯帕特”） function</strong>, or the <strong>effective single-particle absorption thickness</strong></p>
+f(g)=p_{1} g^{3}+p_{2} g^{2}+p_{3} g+p_{4}</script><ul>
+<li>普通多项式（四阶）</li>
+</ul>
 <script type="math/tex; mode=display">
-W = Q_A/Q_S=\frac{1-\varpi}{\varpi}</script><p>the efficiencies and the single-scattering albedo are functions of wavelength.</p>
-<p>Assume that the particles are randomly oriented and positioned.<br>Let N be the number of particles per unit volume, $\sigma$ be the particle geometric cross-sectional area averaged over all orientations, $Q_E$ be their extinction efficiencies.</p>
-<ul>
-<li>Beer’s Law</li>
+f(\alpha)=a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>普通多项式（六阶）</li>
 </ul>
-<script type="math/tex; mode=display">{dI(s)\over ds = -I(s)N\sigma Q_E}</script><script type="math/tex; mode=display">I(S) = I(0)exp(-N\sigma Q_E s)</script><ul>
-<li>extinction coefficient</li>
+<script type="math/tex; mode=display">
+f(\alpha, \lambda)=\mathrm{A}_{0}+\mathrm{A}_{1} \alpha+\mathrm{A}_{2} \mathrm{a}^{2}+\mathrm{A}_{3} \mathrm{\alpha}^{3}+\mathrm{A}_{4} \mathrm{\alpha}^{4}+\mathrm{A}_{5} \mathrm{\alpha}^{5}+\mathrm{A}_{6} \mathrm{\alpha}^{6}</script><ul>
+<li>普通多项式+指数项（指数项模拟背散射效应）</li>
 </ul>
-<p>$E = N\sigma Q_E$</p>
-<p>a mixture of different types of particles with $N_j$ particles of type j per unit volume, geometric cross sections averaged over all orieintations $σ_j$, volumes $υ_j$, and extinction, scattering and absorption efficiencies $Q_{Ej}, Q_{Aj}, and Q_{Sj}$, respectively.</p>
-<ul>
-<li>Number density(total numper of particles per unit volume)</li>
+<script type="math/tex; mode=display">
+f(\alpha)=b_{0} e^{-b_{1} \alpha}+a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>勒让德多项式</li>
 </ul>
-<p>$N = \sum_j N_j$</p>
-<blockquote>
-<p>average distance $L = N^{-1/3}$</p>
-</blockquote>
+<script type="math/tex; mode=display">
+P(g)=1+b \times \cos (g)+c \times\left(1.5 \times \cos ^{2}(g)-0.5\right)</script><p>$P_1 = \cos \theta; P_2 = {1\over 2}(3\cos^2\theta -1)$</p>
 <ul>
-<li>filling factor: the fraction of space within the medium occupied by particles.</li>
+<li>指数形式</li>
 </ul>
-<p>$\phi = \sum_j N_j v_j = N v$</p>
-<blockquote>
-<p>$v = \phi/N$ is the avarage volume of a particle.<br>$1-\phi$ is the porosity.<br>填充因子是体积比.</p>
-</blockquote>
-<ul>
-<li>volume-average particle cross-sectional area</li>
-</ul>
-<p>$\sigma = \left(\sum_j N_j \sigma_j \right) /N$</p>
-<blockquote>
-<p>以上的定义其实是为了理解，真实情况下很难得到一个不规则粒子各个方向的最大截面积的平均值的。</p>
-</blockquote>
-<ul>
-<li>average particle size : the diameter of an equivalent sphere with the average cross-sectional area $\sigma$</li>
-</ul>
-<p>$D = \sqrt{4\sigma/\pi}$</p>
-<ul>
-<li>volume-average extinction efficiency</li>
-</ul>
-<p>$E = \sum_j N_j\sigma_j Q_{Ej} = N\sigma Q_E$</p>
-<blockquote>
-<p>$Q_E = E/{n\sigma}$<br>volume-average absorption and scattering efficiencies in a similar way.</p>
-</blockquote>
-<ul>
-<li>volume angular scattering coefficient</li>
+<script type="math/tex; mode=display">
+f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
+<li>其他形式：</li>
 </ul>
 <blockquote>
-<script type="math/tex; mode=display">
-G(g)=\sum_j N_{j} \sigma_{j} Q_{s j} \Pi_{j}(g)=N \sigma Q_{S} p(g)=S p(g)</script></blockquote>
-<ul>
-<li>volume-average single-particle phase function</li>
-</ul>
-<blockquote>
-<p>$p(g) = G(g)/S$<br>normalization condition:</p>
-<script type="math/tex; mode=display">
-S=(1 / 2) \int_{0}^{\pi} G(g) \sin g d g, \text { and }(1 / 2) \int_{0}^{\pi} p(g) \sin g d g=1</script></blockquote>
-<ul>
-<li>volume-average single scattering albedo</li>
-</ul>
-<p>$w = S/E$</p>
-<ul>
-<li>abeldo factor</li>
-</ul>
-<p>$\gamma = \sqrt{1-w}$</p>
-<ul>
-<li>volume-average asymmetry factor: the average value of the cosine of the scattering angle θ weighted by the particle phase function</li>
-</ul>
-<blockquote>
-<script type="math/tex; mode=display">
-\xi=<\cos \theta>=-\sum_{j} \frac{1}{2} \int_{0}^{\pi} p(g) \cos g \sin g d g</script></blockquote>
-<ul>
-<li>extinction mean free path $\Lambda_E$ is the average distance a photon travels through the medium before being extinguished by either absorption or scattering</li>
-</ul>
-<script type="math/tex; mode=display">\Lambda_{E}=\left(\int_{0}^{\infty} s^{\prime} e^{-E s^{\prime}} d s^{\prime}\right) /\left(\int_{0}^{\infty} e^{-E s^{\prime}} d s^{\prime}\right)=1 / E</script><blockquote>
-<p>the absorption and scattering mean free paths are in the similar way.</p>
+<p>三阶多项式<br>一阶勒让德多项式<br>线性双项HG函数？</p>
 </blockquote>
-<ul>
-<li>transport coefficient</li>
-</ul>
-<p>$S_T = S (1-\xi)$</p>
-<blockquote>
-<p>correspondingly, transport mean free path:$\Lambda_T = 1/(S(1-\xi))$</p>
-</blockquote>
-<p>each of these quantities may depend on both location and direction of the incident radiance.</p>
-<ul>
-<li><strong>optical depth</strong></li>
-</ul>
-<script type="math/tex; mode=display">
-\tau=\int_{z}^{\infty} E\left(z^{\prime}\right) d z^{\prime}=\int_{s}^{\infty} E\left(s^{\prime}\right) d s^{\prime} / \cos \vartheta</script><blockquote>
-<p>由于介质的散射和吸收，一束光穿过介质后其强度为$I = I_0 e^{-\int_0^L E(s)ds}= I_)e^{-\tau}$,入射光强随光深成指数减小，$I/I_0 = e^{-\tau}$.从光的粒子属性出发，则$I/I_0 = nh\nu /n_0 h\nu = n/n_0 = e^{-\tau}$。由此可知，光子穿过光深为$\tau$ 的介质逃逸（不被吸收和散射）的概率为$n/n_0= e^{-\tau}$,那么被吸收和散射的概率为$1-e^{-\tau}$. 当介质的光深很小时，光子被吸收或散射的概率为$1-e^{-\tau}\sim \tau$,而当介质的光深为无穷大时，进入介质的光子基本上都被吸收。<br>$\tau &gt; 1 $的介质称为光学厚的（optical thick）,$\tau &lt; 1 $的介质称为光薄的（optical thin）</p>
-</blockquote>
-<ul>
-<li>transmissivity function</li>
-</ul>
-<script type="math/tex; mode=display">T\left(s_{1}, s_{2}\right)=\exp \left[-\int_{S_{1}}^{s_{2}} E(s, \Omega) d s\right]</script><blockquote>
-<p>$I(s_2) = I(s_1) T(s_1,s_2)$</p>
-<ul>
-<li>在密堆积粒子中，该式需要作出修正</li>
-</ul>
-</blockquote>
-<ul>
-<li>volume emission coefficient $F(s,\Omega)$ as the power emitted per unit volume by the element at position s into unit solid angle about direction $\Omega$.</li>
-</ul>
-<p>$F(s,\Omega) = F_s(s,\Omega) + F_T(s,\Omega)$</p>
-<ul>
-<li>single scattering</li>
-<li><p>thermal emission</p>
-</li>
-<li><p><strong>the general form</strong> of the equation of radiative transfer.</p>
-</li>
-</ul>
-<script type="math/tex; mode=display">\frac{\partial I(s, \Omega)}{\partial s}=-E(s, \Omega) I(s, \Omega)+\frac{S(s, \Omega)}{4 \pi} \int_{4 \pi} I\left(s, \Omega^{\prime}\right) p\left(s, \Omega^{\prime}, \Omega\right) d \Omega^{\prime}+F(s, \Omega)</script><blockquote>
-<ul>
-<li>消光项，入射光被散射和吸收后，在入射方向上减少</li>
-<li>散射项，从其他方向散射到入射方向的光</li>
-<li>发射项，<ul>
-<li>单次散射项</li>
-<li>热发射项，由吸收引起</li>
-<li>荧光发射项，一般不考虑</li>
-<li>受激辐射项，一般也不考虑，或在吸收系数里加一个负项表示<br>定义源函数：<script type="math/tex; mode=display">
-F(z, \Omega)=F(z, \Omega) / E(z)</script></li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>the parameters of the equqtion of radiative transfer are determined by the properties of the particles making up the medium.</p>
-<ul>
-<li><strong>the equqtion of radiative transfer(7.38式)</strong></li>
-</ul>
-<script type="math/tex; mode=display">\begin{aligned}
--\cos \vartheta \frac{\partial I(\tau, \Omega)}{\partial \tau}=&-I(\tau, \Omega)+\frac{w(\tau)}{4 \pi} \int_{4 \pi} I\left(\tau, \Omega^{\prime}\right) p\left(\tau, g^{\prime}\right) d \Omega^{\prime} \\\\
-&+J \frac{w(\tau)}{4 \pi} p(\tau, g) e^{-\tau / \cos i}+F_{T}(\tau, \Omega)
-\end{aligned}</script><blockquote>
-<p>水平分层介质;<br>volume single-scattering albedo: $w(z) = S(z)/E(z)$</p>
-</blockquote>
-<ol>
-<li>Radiative transfer in a medium of arbitrary particle separation</li>
-</ol>
-<ul>
-<li>Fresnel diffraction in particulate media</li>
-<li>Coherent effects in a close-packed medium</li>
-<li>The transmissivity of a particulate medium</li>
-<li>Radiative transfer in a particulate medium of arbitrary filling factor</li>
-<li>Mean free paths in a particulate medium</li>
-</ul>
-<ol>
-<li>Methods of solutio of radiactive-transfer problems</li>
-</ol>
-<p><strong>求解辐射传输方程(7.5节）</strong></p>
-<blockquote>
-<p>不能精确求解，只有数值解和近似解析解</p>
-</blockquote>
-<ul>
-<li>the Monte Carlo Method</li>
-<li>the radiosity method</li>
-<li>the doubling method</li>
-<li>the Eddington approximation</li>
-<li>Integral equation formulation</li>
-<li>the multistream method</li>
-</ul>
-<p>the multistream method is also called discret ordiantes method.<br>The sphere of all propagation directions $\Omega$ is broken up into N regions of solid angle $\Delta\Omega_j$ , which need not be equal. The equation of radiative transfer, equation (7.38), is integrated in solid angle over each of the regions $\Delta\Omega_j$ and each resulting equation divided by $\Delta\Omega_j$, giving N equations of the form</p>
-<script type="math/tex; mode=display">
-\begin{array}{c}
--\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} \frac{\partial I(\tau, \Omega)}{\partial \tau} \cos \vartheta d \Omega=-\frac{1}{\Delta \Omega_{j}} \frac{\partial}{\partial \tau} \int_{\Delta \Omega j} I(\tau, \Omega) \cos \vartheta d \Omega \\\\
-=-\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} I(\tau, \Omega) d \Omega+\frac{w}{4 \pi} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} \int_{4 \pi} p\left(g^{\prime}\right) I\left(\tau, \Omega^{\prime}\right) d \Omega^{\prime} d \Omega \\\\
-+J \frac{w}{4 \pi} e^{-\tau / \cos i} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} p(g) d \Omega+\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} F_{T}(\tau) d \Omega
-\end{array}</script><p>Define the following average quantities for the jth zone:</p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-I_{j}(\tau) &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega j} I(\tau, \Omega) d \Omega \\\\
-\mu_{j} &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} \cos \vartheta d \Omega \\\\
-p_{k j} &=\frac{1}{\Delta \Omega_{k}} \frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega k} \int_{\Delta \Omega j} p\left(g^{\prime}\right) d \Omega^{\prime} d \Omega \\\\
-F_{T j}(\tau) &=\frac{1}{\Delta \Omega_{j}} \int_{\Delta \Omega_{j}} F_{T}(\tau, \Omega) d \Omega
-\end{aligned}</script><p><strong>Note that $p_{kj}$ is the fraction of the radiance traveling in the direction of the center of region k that is scattered into region j.</strong></p>
-<p>Then the equation for the intensity in the jth directional region becomes</p>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\mu_{j} d I_{j}(\tau) / d \tau=&-I_{j}(\tau)+(w / 4 \pi) \sum_{k=1}^{\mathcal{N}} \Delta \Omega_{k} p_{k j} I_{k}(\tau) \\\\
-&+J \frac{w}{4 \pi} p_{m} e^{-\tau / \cos i}+F_{T j}(\tau)
-\end{aligned}</script><p>where the region $\Omega_m$ contains the direction to the collimated source, and j takes all integer values between 1 and N.</p>
-<blockquote>
-<p>$p_m = \sum_{k=1}^N p_{mk}$</p>
-</blockquote>
-<p>Thus, the partial integrodifferential equation (7.38) is replaced by a series of N linear, first-order, coupled differential equations that are amenable to well-established numerical solution.</p>
-<p>the method of invariance</p>
-]]></content>
+<h2 id="Are-planetary-regolith-particles-backscattering-Hapke-1996"><a href="#Are-planetary-regolith-particles-backscattering-Hapke-1996" class="headerlink" title="Are planetary regolith particles backscattering? (Hapke,1996)"></a>Are planetary regolith particles backscattering? (Hapke,1996)</h2>]]></content>
   </entry>
 </search>
