@@ -50,6 +50,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>关于个人网站的学习资源总结</title>
+    <url>/posts/hexo.html</url>
+    <content><![CDATA[<h2 id="1-博客：github-hexo"><a href="#1-博客：github-hexo" class="headerlink" title="1. 博客：github+hexo"></a>1. 博客：github+hexo</h2><p><a href="https://hexo.io/zh-cn/docs/commands.html">https://hexo.io/zh-cn/docs/commands.html</a></p>
+<p><a href="https://yuumiy.github.io/posts/2789.html">https://yuumiy.github.io/posts/2789.html</a></p>
+<p><a href="https://www.jianshu.com/p/9b9c241146bc">https://www.jianshu.com/p/9b9c241146bc</a></p>
+<p> Hexo博客写文章及基本操作 - Unity晚阳的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/156915260">https://zhuanlan.zhihu.com/p/156915260</a></p>
+<h2 id="2-个人主页：-GitHub-jekyll"><a href="#2-个人主页：-GitHub-jekyll" class="headerlink" title="2. 个人主页： GitHub + jekyll"></a>2. 个人主页： GitHub + jekyll</h2><h2 id="3-学术主页：-github-hugo-netlify"><a href="#3-学术主页：-github-hugo-netlify" class="headerlink" title="3. 学术主页： github+hugo+netlify"></a>3. 学术主页： github+hugo+netlify</h2><p> 【Hugo+Netlify】制作英文学术个人简介网站（一）：基础版 - Magical-E的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/110137145">https://zhuanlan.zhihu.com/p/110137145</a></p>
+<p><a href="https://www.bilibili.com/video/BV1iA411v7Gi/">https://www.bilibili.com/video/BV1iA411v7Gi/</a></p>
+<p><a href="https://ianying.vercel.app/laymanit/">https://ianying.vercel.app/laymanit/</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>大气校正模型</title>
     <url>/posts/9337.html</url>
     <content><![CDATA[<h1 id="常见的辐射传输模型-Radiative-Transfer-Model-RIM"><a href="#常见的辐射传输模型-Radiative-Transfer-Model-RIM" class="headerlink" title="常见的辐射传输模型(Radiative Transfer Model, RIM)"></a>常见的辐射传输模型(Radiative Transfer Model, RIM)</h1><ul>
@@ -71,18 +83,6 @@
       <tags>
         <tag>学习</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于个人网站的学习资源总结</title>
-    <url>/posts/hexo.html</url>
-    <content><![CDATA[<h2 id="1-博客：github-hexo"><a href="#1-博客：github-hexo" class="headerlink" title="1. 博客：github+hexo"></a>1. 博客：github+hexo</h2><p><a href="https://hexo.io/zh-cn/docs/commands.html">https://hexo.io/zh-cn/docs/commands.html</a></p>
-<p><a href="https://yuumiy.github.io/posts/2789.html">https://yuumiy.github.io/posts/2789.html</a></p>
-<p><a href="https://www.jianshu.com/p/9b9c241146bc">https://www.jianshu.com/p/9b9c241146bc</a></p>
-<p> Hexo博客写文章及基本操作 - Unity晚阳的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/156915260">https://zhuanlan.zhihu.com/p/156915260</a></p>
-<h2 id="2-个人主页：-GitHub-jekyll"><a href="#2-个人主页：-GitHub-jekyll" class="headerlink" title="2. 个人主页： GitHub + jekyll"></a>2. 个人主页： GitHub + jekyll</h2><h2 id="3-学术主页：-github-hugo-netlify"><a href="#3-学术主页：-github-hugo-netlify" class="headerlink" title="3. 学术主页： github+hugo+netlify"></a>3. 学术主页： github+hugo+netlify</h2><p> 【Hugo+Netlify】制作英文学术个人简介网站（一）：基础版 - Magical-E的文章 - 知乎 <a href="https://zhuanlan.zhihu.com/p/110137145">https://zhuanlan.zhihu.com/p/110137145</a></p>
-<p><a href="https://www.bilibili.com/video/BV1iA411v7Gi/">https://www.bilibili.com/video/BV1iA411v7Gi/</a></p>
-<p><a href="https://ianying.vercel.app/laymanit/">https://ianying.vercel.app/laymanit/</a></p>
-]]></content>
   </entry>
   <entry>
     <title>误差传递公式</title>
@@ -1384,55 +1384,6 @@ N_n(x) = & a_0 +a_1(x-x_0)+a_2(x-x_0)(x_1)\\
 ]]></content>
   </entry>
   <entry>
-    <title>ten rules for scientific graphs</title>
-    <url>/posts/69cf.html</url>
-    <content><![CDATA[<h1 id="Ten-Simple-Rules-for-Better-Figures"><a href="#Ten-Simple-Rules-for-Better-Figures" class="headerlink" title="Ten Simple Rules for Better Figures"></a>Ten Simple Rules for Better Figures</h1><p>Scientific visualization is a graphical interface between people and data.</p>
-<ol>
-<li><p>Know Your Audience.(针对不同人群，简略程度不一样)</p>
-</li>
-<li><p>Identify Your Message. (明确要传达的信息)</p>
-</li>
-</ol>
-<p>A figure is meant to express an idea or introduce some facts or a result that would be too long (or nearly impossible) to explain only with words, be it for an article or during a time-limited oral presentation.</p>
-<ol>
-<li>Adapt the Figure to the Support Medium.(根据媒体介质调整图像)</li>
-</ol>
-<p>each type of support medium requires a different figure.</p>
-<ol>
-<li>Captions Are Not Optional.(图注是必要的)</li>
-</ol>
-<p>you cannot explain everything within the figure itself—a figure should be accompanied by a caption.</p>
-<ol>
-<li>Do Not Trust the Defaults.(个性化调整是必需的)</li>
-</ol>
-<p>All plots require at least some manual tuning of the different settings to better express the message.</p>
-<ol>
-<li>Use Color Effectively.(高效运用颜色)</li>
-</ol>
-<p>to highlight some element of a figure, you can use color for this element while keeping other elements gray or black.</p>
-<p> ‘‘Is there any reason this plot is blue and not black?’’ If you don’t know the answer, just keep it black.</p>
-<p> avoid using too many similar colors.</p>
-<ol>
-<li>Do Not Mislead the Reader.</li>
-</ol>
-<p>两个例子：点的大小应用面积表示，而非半径。柱状图的纵轴范围。</p>
-<p>shown as objectively as possible.</p>
-<p>always use the simplest type of plots.</p>
-<ol>
-<li>Avoid ‘‘Chartjunk’’</li>
-</ol>
-<p>any decorations that do not tell the viewer something new must be banned.</p>
-<ol>
-<li>Message Trumps Beauty</li>
-</ol>
-<p>in science, message and readability of the figure is the most important aspect while beauty is only an option.</p>
-<ol>
-<li>Get the Right Tool</li>
-</ol>
-<p>the software or library you’re using to make a visualization can be different from the software or library you’re using to conduct your research and/or analyze your data.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>GitHub</title>
     <url>/posts/e16f.html</url>
     <content><![CDATA[<h1 id="github正确使用姿势"><a href="#github正确使用姿势" class="headerlink" title="github正确使用姿势"></a><a href="https://zhuanlan.zhihu.com/p/212470682">github正确使用姿势</a></h1><ol>
@@ -1574,6 +1525,55 @@ N_n(x) = & a_0 +a_1(x-x_0)+a_2(x-x_0)(x_1)\\
 ]]></content>
   </entry>
   <entry>
+    <title>ten rules for scientific graphs</title>
+    <url>/posts/69cf.html</url>
+    <content><![CDATA[<h1 id="Ten-Simple-Rules-for-Better-Figures"><a href="#Ten-Simple-Rules-for-Better-Figures" class="headerlink" title="Ten Simple Rules for Better Figures"></a>Ten Simple Rules for Better Figures</h1><p>Scientific visualization is a graphical interface between people and data.</p>
+<ol>
+<li><p>Know Your Audience.(针对不同人群，简略程度不一样)</p>
+</li>
+<li><p>Identify Your Message. (明确要传达的信息)</p>
+</li>
+</ol>
+<p>A figure is meant to express an idea or introduce some facts or a result that would be too long (or nearly impossible) to explain only with words, be it for an article or during a time-limited oral presentation.</p>
+<ol>
+<li>Adapt the Figure to the Support Medium.(根据媒体介质调整图像)</li>
+</ol>
+<p>each type of support medium requires a different figure.</p>
+<ol>
+<li>Captions Are Not Optional.(图注是必要的)</li>
+</ol>
+<p>you cannot explain everything within the figure itself—a figure should be accompanied by a caption.</p>
+<ol>
+<li>Do Not Trust the Defaults.(个性化调整是必需的)</li>
+</ol>
+<p>All plots require at least some manual tuning of the different settings to better express the message.</p>
+<ol>
+<li>Use Color Effectively.(高效运用颜色)</li>
+</ol>
+<p>to highlight some element of a figure, you can use color for this element while keeping other elements gray or black.</p>
+<p> ‘‘Is there any reason this plot is blue and not black?’’ If you don’t know the answer, just keep it black.</p>
+<p> avoid using too many similar colors.</p>
+<ol>
+<li>Do Not Mislead the Reader.</li>
+</ol>
+<p>两个例子：点的大小应用面积表示，而非半径。柱状图的纵轴范围。</p>
+<p>shown as objectively as possible.</p>
+<p>always use the simplest type of plots.</p>
+<ol>
+<li>Avoid ‘‘Chartjunk’’</li>
+</ol>
+<p>any decorations that do not tell the viewer something new must be banned.</p>
+<ol>
+<li>Message Trumps Beauty</li>
+</ol>
+<p>in science, message and readability of the figure is the most important aspect while beauty is only an option.</p>
+<ol>
+<li>Get the Right Tool</li>
+</ol>
+<p>the software or library you’re using to make a visualization can be different from the software or library you’re using to conduct your research and/or analyze your data.</p>
+]]></content>
+  </entry>
+  <entry>
     <title>HTML and XML</title>
     <url>/posts/d562.html</url>
     <content><![CDATA[<h1 id="HyperText-Markup-language-超文本标记语言"><a href="#HyperText-Markup-language-超文本标记语言" class="headerlink" title="HyperText Markup language (超文本标记语言)"></a>HyperText Markup language (超文本标记语言)</h1><ul>
@@ -1668,35 +1668,6 @@ N_n(x) = & a_0 +a_1(x-x_0)+a_2(x-x_0)(x_1)\\
     <title>LaTeX 实践</title>
     <url>/posts/3afd.html</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Python 实践</title>
-    <url>/posts/0.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Curve_fit</title>
-    <url>/posts/d2b.html</url>
-    <content><![CDATA[<p><a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html?highlight=curve_fit#scipy.optimize.curve_fit">scipy.optimize.curve_fit</a></p>
-<p>scipy.optimize.curve_fit(f, xdata, ydata, p0=None, sigma=None, absolute_sigma=False, check_finite=True, bounds=- inf, inf, method=None, jac=None, **kwargs)</p>
-<blockquote>
-<p>非线性最小二乘拟合</p>
-</blockquote>
-<ul>
-<li>f: 模型函数</li>
-<li>xdata:数据，数组或对象</li>
-<li>ydata:数据</li>
-<li>p0:初始参数，数组，如果没有，则初始参数为1</li>
-</ul>
-<p>若想要拟合成功，可以注意的参数有：p0,maxfev,ftol,xtol.</p>
-<p><strong>其他</strong></p>
-<ol>
-<li>最小二乘</li>
-<li>有限元计算</li>
-<li>有限差分法</li>
-<li>雅克比矩阵</li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>MATLAB</title>
@@ -2389,6 +2360,35 @@ f1^2+f2^2+f3^2+……+fn^2=fn×fn+1</script><blockquote>
 <h2 id="10-5-在其他语言程序中调用matlab函数"><a href="#10-5-在其他语言程序中调用matlab函数" class="headerlink" title="10.5 在其他语言程序中调用matlab函数"></a>10.5 在其他语言程序中调用matlab函数</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;engine.h&gt;</span></span></span><br><span class="line">\<span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="comment">//定义一个engine类型的指针ep，用于操作引擎对象。</span></span><br><span class="line">  Engine *ep; </span><br><span class="line">  <span class="comment">//定义mxArray 类型的指针，用于指向所调用MATLAB函数的输入对象。</span></span><br><span class="line">  mxArray *T = <span class="literal">NULL</span>, *R = <span class="literal">NULL</span>;</span><br><span class="line">  <span class="comment">//定义存储数据的变量，并按给定表达式生成数据。</span></span><br><span class="line">  <span class="keyword">double</span> t[<span class="number">180</span>],r[<span class="number">180</span>];</span><br><span class="line">  <span class="keyword">double</span> a,b;</span><br><span class="line">  a=<span class="number">2</span>;b=<span class="number">3</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">180</span>;i++)  &#123;</span><br><span class="line">    t[i]=i*<span class="number">0.1</span>;</span><br><span class="line">    r[i]=a+b*t[i]; &#125;</span><br><span class="line">  <span class="comment">//启动MATLAB计算引擎</span></span><br><span class="line">  <span class="comment">//Windows系统中，engOpen函数的参数为空字符串，指定在本机启动计算引擎。 </span></span><br><span class="line">  <span class="keyword">if</span> (!(ep = <span class="built_in">engOpen</span>(<span class="string">&quot;&quot;</span>)))  &#123;</span><br><span class="line">    cout&lt;&lt; <span class="string">&quot;\n不能启动MATLAB引擎\n&quot;</span>; </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>; </span><br><span class="line">    &#125;</span><br><span class="line">  <span class="comment">//建立MATLAB变量，调用MATLAB函数</span></span><br><span class="line">  T = <span class="built_in">mxCreateDoubleMatrix</span>(<span class="number">1</span>, <span class="number">180</span>, mxREAL);</span><br><span class="line">  <span class="built_in">memcpy</span>((<span class="keyword">void</span> *)<span class="built_in">mxGetPr</span>(T), (<span class="keyword">void</span> *)t, <span class="built_in"><span class="keyword">sizeof</span></span>(t));</span><br><span class="line">  <span class="built_in">engPutVariable</span>(ep, <span class="string">&quot;T&quot;</span>, T); </span><br><span class="line">  R = <span class="built_in">mxCreateDoubleMatrix</span>(<span class="number">1</span>, <span class="number">180</span>, mxREAL);</span><br><span class="line">  <span class="built_in">memcpy</span>((<span class="keyword">void</span> *)<span class="built_in">mxGetPr</span>(R), (<span class="keyword">void</span> *)r, <span class="built_in"><span class="keyword">sizeof</span></span>(r));</span><br><span class="line">  <span class="built_in">engPutVariable</span>(ep, <span class="string">&quot;R&quot;</span>, R); </span><br><span class="line">  <span class="built_in">engEvalString</span>(ep, <span class="string">&quot;polar(T,R);&quot;</span>);</span><br><span class="line">  <span class="built_in">engEvalString</span>(ep, <span class="string">&quot;title(&#x27;阿基米德螺线&#x27;);&quot;</span>);  </span><br><span class="line">  <span class="comment">//释放内存空间，关闭计算引擎</span></span><br><span class="line">  <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">  <span class="built_in">mxDestroyArray</span>(T);</span><br><span class="line">  <span class="built_in">mxDestroyArray</span>(R);</span><br><span class="line">  <span class="built_in">engClose</span>(ep);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="专题十总结"><a href="#专题十总结" class="headerlink" title="专题十总结"></a>专题十总结</h2><h1 id="其他学习资源"><a href="#其他学习资源" class="headerlink" title="其他学习资源"></a>其他学习资源</h1><p><a href="https://matlabacademy.mathworks.com/cn">https://matlabacademy.mathworks.com/cn</a></p>
 <p><a href="https://ww2.mathworks.cn/videos/getting-started-with-matlab-68985.html">https://ww2.mathworks.cn/videos/getting-started-with-matlab-68985.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Python 实践</title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Curve_fit</title>
+    <url>/posts/d2b.html</url>
+    <content><![CDATA[<p><a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html?highlight=curve_fit#scipy.optimize.curve_fit">scipy.optimize.curve_fit</a></p>
+<p>scipy.optimize.curve_fit(f, xdata, ydata, p0=None, sigma=None, absolute_sigma=False, check_finite=True, bounds=- inf, inf, method=None, jac=None, **kwargs)</p>
+<blockquote>
+<p>非线性最小二乘拟合</p>
+</blockquote>
+<ul>
+<li>f: 模型函数</li>
+<li>xdata:数据，数组或对象</li>
+<li>ydata:数据</li>
+<li>p0:初始参数，数组，如果没有，则初始参数为1</li>
+</ul>
+<p>若想要拟合成功，可以注意的参数有：p0,maxfev,ftol,xtol.</p>
+<p><strong>其他</strong></p>
+<ol>
+<li>最小二乘</li>
+<li>有限元计算</li>
+<li>有限差分法</li>
+<li>雅克比矩阵</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
