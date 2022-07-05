@@ -166,6 +166,141 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://guolincq.github.io/posts/459d.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/48752043?v=4">
+      <meta itemprop="name" content="Lin Guo">
+      <meta itemprop="description" content="怕什么真理无穷，进一寸有进一寸的欢喜。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Growing">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/459d.html" class="post-title-link" itemprop="url">Hockey-Stick relation</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-12-15 17:14:58" itemprop="dateCreated datePublished" datetime="2021-12-15T17:14:58+08:00">2021-12-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-17 14:23:32" itemprop="dateModified" datetime="2021-12-17T14:23:32+08:00">2021-12-17</time>
+              </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Henyey-Greenstein-function"><a href="#Henyey-Greenstein-function" class="headerlink" title="Henyey-Greenstein function"></a><strong>Henyey-Greenstein function</strong></h2><script type="math/tex; mode=display">p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<p>b (0 ≤ b ≤ 1) is the shape-controlling parameter, and c (−1 ≤ c ≤ 1) is the relative strength of backward and forward lobes.</p>
+<p>b is the angular width of the backward (first term) or forward (second term) scattering lobe and c is the magnitude of the lobe.</p>
+<p>c&gt;0,后向；c&lt;0 前向</p>
+<p>b控制形状：b越大，侧向散射越弱（b=1例外）</p>
+<p>Narrow lobes have b values close to 1, wide lobes have values &lt;&lt; 1, and isotropically scattering particles have b = 0; 0 &lt;= b &lt; 1.</p>
+<p>$p(g)=1$ 表示各向同性；$p(g)\neq 1$ 表示各项异性；$p(g) =0$ 表示完全吸收。</p>
+</blockquote>
+<p>Normalized: ${1\over 4\pi} \int_0^\pi p(g)2\pi \sin g d g = 1$</p>
+<p>Asymmetry factor:$&lt;\cos \theta&gt; = {1\over 4\pi} \int_0^\pi \cos\theta p(\theta)2\pi \sin \theta d \theta = -bc$</p>
+<p>for  a semi-infinite medium, the multiply scattered portion is much less sensitive to the particle phase function than the singly scattered fraction.</p>
+<p>The brighter the surface, the more times the average photon is scattered before emerging from the surface, causing directional effects to be averaged out and the multiply scattered intensity distribution to closely approach the isotropic case.</p>
+<p>Since the single-scattering term can be evaluated exactly for an arbitrary phase function and the multiply scattered term is relatively insensitive to phase function, a first-order expression for nonisotropic scatterers can be obtained by using the exact expression for the single-scattered term but retaining the isotropic solution for the multiply-scattered term.</p>
+<p>多次散射项不像单次散射项那样对相函数明显，通常，表面越亮，多次散射的次数越多，其方向性就被平均掉了，所以一般多次散射项都当做各向同性处理。</p>
+<h2 id="hockey-stick-relation"><a href="#hockey-stick-relation" class="headerlink" title="hockey stick relation"></a>hockey stick relation</h2><script type="math/tex; mode=display">c=3.29 \exp \left(-17.4 b^{2}\right)-0.908</script><h2 id="other-phase-function"><a href="#other-phase-function" class="headerlink" title="other phase function"></a>other phase function</h2><ul>
+<li>单参数HG函数</li>
+</ul>
+<script type="math/tex; mode=display">
+p(g)=\frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
+<ul>
+<li>$(1/4\pi)\int_{4\pi}p(g)d\Omega = 1$</li>
+<li>$\theta = \pi - g$</li>
+<li>参数b为余弦不对称因子：$b = &lt;\cos \theta&gt;=-&lt;\cos g&gt;$</li>
+<li>b=0时，$p(g)=1$,各向同性</li>
+</ul>
+</blockquote>
+<ul>
+<li>普通多项式（三阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(g)=p_{1} g^{3}+p_{2} g^{2}+p_{3} g+p_{4}</script><ul>
+<li>普通多项式（四阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>普通多项式（六阶）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha, \lambda)=\mathrm{A}_{0}+\mathrm{A}_{1} \alpha+\mathrm{A}_{2} \mathrm{a}^{2}+\mathrm{A}_{3} \mathrm{\alpha}^{3}+\mathrm{A}_{4} \mathrm{\alpha}^{4}+\mathrm{A}_{5} \mathrm{\alpha}^{5}+\mathrm{A}_{6} \mathrm{\alpha}^{6}</script><ul>
+<li>普通多项式+指数项（指数项模拟背散射效应）</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=b_{0} e^{-b_{1} \alpha}+a_{0}+a_{1} \alpha+a_{2} \alpha^{2}+a_{3} \alpha^{3}+a_{4} \alpha^{4}</script><ul>
+<li>勒让德多项式</li>
+</ul>
+<script type="math/tex; mode=display">
+P(g)=1+b \times \cos (g)+c \times\left(1.5 \times \cos ^{2}(g)-0.5\right)</script><p>$P_1 = \cos \theta; P_2 = {1\over 2}(3\cos^2\theta -1)$</p>
+<ul>
+<li>指数形式</li>
+</ul>
+<script type="math/tex; mode=display">
+f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
+<li>其他形式：</li>
+</ul>
+<blockquote>
+<p>三阶多项式<br>一阶勒让德多项式<br>线性双项HG函数？</p>
+</blockquote>
+<h2 id="Are-planetary-regolith-particles-backscattering-Hapke-1996"><a href="#Are-planetary-regolith-particles-backscattering-Hapke-1996" class="headerlink" title="Are planetary regolith particles backscattering? (Hapke,1996)"></a>Are planetary regolith particles backscattering? (Hapke,1996)</h2>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://guolincq.github.io/posts/3086.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1690,145 +1825,10 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://guolincq.github.io/posts/5c18.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/48752043?v=4">
-      <meta itemprop="name" content="Lin Guo">
-      <meta itemprop="description" content="怕什么真理无穷，进一寸有进一寸的欢喜。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Growing">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/5c18.html" class="post-title-link" itemprop="url">Caj 转PDF</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-05-28 15:33:51" itemprop="dateCreated datePublished" datetime="2021-05-28T15:33:51+08:00">2021-05-28</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-07-05 15:28:10" itemprop="dateModified" datetime="2022-07-05T15:28:10+08:00">2022-07-05</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>701</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="技巧积累"><a href="#技巧积累" class="headerlink" title="技巧积累"></a>技巧积累</h1><p>[toc]</p>
-<h2 id="20200623-caj转pdf"><a href="#20200623-caj转pdf" class="headerlink" title="20200623 caj转pdf"></a>20200623 caj转pdf</h2><ol>
-<li>虚拟打印</li>
-</ol>
-<ul>
-<li>cajviewer 打印输出</li>
-<li>福昕浏览器 打印机</li>
-<li>微软打印机</li>
-<li>只能单篇</li>
-</ul>
-<ol>
-<li>在线转换工具</li>
-</ol>
-<ul>
-<li>speedPDF</li>
-<li>迅捷PDF转化器</li>
-<li>免费次数和大小有限</li>
-</ul>
-<ol>
-<li>知网直接下载PDF</li>
-</ol>
-<ul>
-<li>插件tampermonkey：详见<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/49681481">https://www.zhihu.com/question/49681481</a></li>
-<li>海外版知网</li>
-<li>CNKI E-study 批量下载PDF</li>
-</ul>
-<ol>
-<li>转换软件</li>
-</ol>
-<ul>
-<li>“极速玩转”客户端</li>
-<li>caj2pdf小工具，没用过，链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1KDRqVeaBQ6sJHYyrpLWn6g">https://pan.baidu.com/s/1KDRqVeaBQ6sJHYyrpLWn6g</a> 提取码：28sx</li>
-<li><a href="https://firc.gitee.io：需要购买">https://firc.gitee.io：需要购买</a></li>
-</ul>
-<ol>
-<li>直接修改后缀名？</li>
-</ol>
-<h2 id="20200624-github空间大小"><a href="#20200624-github空间大小" class="headerlink" title="20200624 github空间大小"></a>20200624 github空间大小</h2><ol>
-<li>GitHub 有空间限制吗？</li>
-</ol>
-<p>没有限制。推荐1G以内。达到du1G以后会受到GITHUB的通知邮件，上传超过50M的单个文件会zhiwarning，无法上传超过100M的单个文件。dao目前大文件会提供一个1G的免费GIT-LFS空间。</p>
-<ol>
-<li><p>如何查看GitHub空间使用情况？</p>
-</li>
-<li><p>github更改密码之后，Gitnote还能自动同步吗？</p>
-</li>
-</ol>
-<p>不能，对Gitnote而言，更改GitHub密码要慎重。</p>
-<p>解决办法？重新将仓库复制到本地。</p>
-<p>对git而言则无影响。</p>
-<p>Gitnote仅在克隆仓库时需要输入GitHub账户和密码，这意味着，GitHub其实可以在本地同时为多个GitHub提供同步服务。</p>
-<p><strong>图床呢？还能继续放到GitHub吗？</strong></p>
-<p><img data-src="https://raw.githubusercontent.com/guolincq/gitnote-images/master/gitnote/2020/06/24/hapke-1592967492214.png" alt="title"></p>
-<p>验证发现，是可以的。</p>
-<h3 id="20200626-manim—用于数学科普，可视化展示。"><a href="#20200626-manim—用于数学科普，可视化展示。" class="headerlink" title="20200626 manim—用于数学科普，可视化展示。"></a>20200626 manim—用于数学科普，可视化展示。</h3><p>基本原理：绘图得到图像帧，压缩成视频。</p>
-<p>使用思路：场景类（Scene），继承</p>
-<p>代码，不同层次上的封装。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -1896,7 +1896,7 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-count">22</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1950,13 +1950,13 @@ r = I/J = 1/\pi \Rightarrow I = Jr = J/\pi \Rightarrow \\P_{out} = \int_{上半�
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">44k</span>
+    <span title="站点总字数">93k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">40 分钟</span>
+    <span title="站点阅读时长">1:25</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
