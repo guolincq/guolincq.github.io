@@ -1163,11 +1163,6 @@ h> \lambda \sec\theta /4</script><p>Note that the roughness criteria depend on �
 ]]></content>
   </entry>
   <entry>
-    <title>wavelength dependence</title>
-    <url>/posts/3899.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hockey-Stick relation</title>
     <url>/posts/459d.html</url>
     <content><![CDATA[<h2 id="Henyey-Greenstein-function"><a href="#Henyey-Greenstein-function" class="headerlink" title="Henyey-Greenstein function"></a><strong>Henyey-Greenstein function</strong></h2><script type="math/tex; mode=display">p(g)=\frac{1+c}{2} \frac{1-b^{2}}{\left(1-2 b \cos (g)+b^{2}\right)^{3 / 2}}+\frac{1-c}{2} \frac{1-b^{2}}{\left(1+2 b \cos (g)+b^{2}\right)^{3 / 2}}</script><blockquote>
@@ -1230,6 +1225,11 @@ f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
 <h2 id="Are-planetary-regolith-particles-backscattering-Hapke-1996"><a href="#Are-planetary-regolith-particles-backscattering-Hapke-1996" class="headerlink" title="Are planetary regolith particles backscattering? (Hapke,1996)"></a>Are planetary regolith particles backscattering? (Hapke,1996)</h2>]]></content>
   </entry>
   <entry>
+    <title>wavelength dependence</title>
+    <url>/posts/3899.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>GIS</title>
     <url>/posts/0.html</url>
     <content><![CDATA[]]></content>
@@ -1282,6 +1282,11 @@ f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
 </ol>
 <p>the software or library you’re using to make a visualization can be different from the software or library you’re using to conduct your research and/or analyze your data.</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>LaTeX 实践</title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Python 实践</title>
@@ -4103,10 +4108,5 @@ egin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}<
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 ]]></content>
-  </entry>
-  <entry>
-    <title>LaTeX 实践</title>
-    <url>/posts/0.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
