@@ -1355,4 +1355,145 @@ f(\alpha)=e^{\beta \alpha+\gamma \alpha^{2}+\delta \alpha^{3}}</script><ul>
 <p>代码，不同层次上的封装。</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>GitHub</title>
+    <url>/posts/e16f.html</url>
+    <content><![CDATA[<h1 id="github正确使用姿势"><a href="#github正确使用姿势" class="headerlink" title="github正确使用姿势"></a><a href="https://zhuanlan.zhihu.com/p/212470682">github正确使用姿势</a></h1><ol>
+<li><p>注册、登录</p>
+</li>
+<li><p>搜索、查看（github.com/trending可查看项目趋势列表，发现优秀的开源项目）</p>
+</li>
+</ol>
+<ul>
+<li>star:越多越受欢迎</li>
+<li>README：在code栏中，是对于该项目的介绍</li>
+<li>issues:问题，任务，团队协作</li>
+</ul>
+<ol>
+<li><p>建仓库</p>
+</li>
+<li><p>如何学习大神的代码？fork（复刻）</p>
+</li>
+<li><p>怎么判断github上的优质内容？</p>
+</li>
+</ol>
+<ul>
+<li>watch 关注</li>
+<li>star 点赞<ul>
+<li>表示支持</li>
+<li>用作收藏，在<strong>your stars</strong>中可以查看</li>
+</ul>
+</li>
+<li>fork<ul>
+<li>由于学习，可任意删改</li>
+<li>帮作者完善bug</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>如何在github中寻找优质有趣的内容？</li>
+</ol>
+<ul>
+<li>GitHub Explore 探索</li>
+<li>GitHub Topic 热门话题</li>
+<li>GitHub Trending 流行热榜<blockquote>
+<p>注：spoken language 可选择自然语言；language可以选择计算机语言</p>
+</blockquote>
+</li>
+<li>资源大全系列-GitHub Awesome</li>
+<li>自定义搜索</li>
+</ul>
+<ol>
+<li>不是程序员，github有哪些神奇用法</li>
+</ol>
+<ul>
+<li><a href="https://github.com/1c7/chinese-independent-developer">中国独立开发者列表</a></li>
+</ul>
+<p>Do whatever you want, whatever works best for you, what makes you the most comfortable and seems like the best idea. Do what you love.<br>做任何你想做的事，做你所热爱的事情。</p>
+<h1 id="github实践中遇见的问题及解决"><a href="#github实践中遇见的问题及解决" class="headerlink" title="github实践中遇见的问题及解决"></a>github实践中遇见的问题及解决</h1><ol>
+<li>gitnote克隆问题：一定要是“master”branch.</li>
+<li>交换文件时速度可能较慢，请耐心等候！</li>
+</ol>
+<p><strong>更改文件时，必须打开Gitnote，以便版本跟踪</strong><br>更新不及时也有可能是网络的问题？网速慢则上传需要时间？</p>
+<h2 id="使用Git进行版本控制-1"><a href="#使用Git进行版本控制-1" class="headerlink" title="[使用Git进行版本控制][1]"></a>[使用Git进行版本控制][1]</h2><p>[1]:《python编程从入门到实践》. 附录D</p>
+<p><strong>分布式版本控制</strong></p>
+<p><strong>创建项目</strong></p>
+<p>建立一个文件夹，作为项目文件夹。</p>
+<p><strong>忽略文件</strong></p>
+<p>.gitignore 文件中的目录将不被git跟踪。（例：__pycache__ 中的.pyc文件。）</p>
+<p><strong>初始化仓库</strong></p>
+<p>git init</p>
+<p>.git 文件夹。内存有所有的历史记录。</p>
+<p><strong>检查状态</strong></p>
+<p>git status</p>
+<p>在git中，<strong><em>分支</em></strong>是项目的一个版本。<strong>提交</strong>是项目在特定时间点的快照。</p>
+<p><strong>将文件加入到仓库中</strong></p>
+<p>git add .</p>
+<p>并未提交文件，只是让Git关注文件。</p>
+<p><strong>执行提交</strong></p>
+<p>git commit -am “message”</p>
+<p>-a  让Git将仓库中所有修改了的文件都加入到当前提交中。</p>
+<p>-m 让Git在提交历史中记录一条消息。</p>
+<p><strong>查看提交历史</strong></p>
+<p>git log</p>
+<p>更简单的版本：git log —pretty=oneline</p>
+<p><strong>撤销修改</strong></p>
+<p>git checkout .</p>
+<p><strong>检出以前的提交</strong></p>
+<p>git checkout (提交的引用ID的前6个字符)</p>
+<p>git reset —hard (提交的引用ID的前6个字符) ;永久回到以前的提交。</p>
+<p><strong>删除仓库</strong></p>
+<p>rm -rf .git </p>
+<p>删除.git文件夹等于删除整个仓库，之后只能重新初始化。</p>
+<p><strong><a href="www.cnblogs.com/xiaopangjr/p/7469687.html">git 远程操作</a></strong></p>
+<ul>
+<li><p>git clone</p>
+<blockquote>
+<p> 远程操作的第一步，通常是从远程主机克隆一个版本库，这时就要用到<code>git clone</code>命令。 </p>
+<blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$ git clone &lt;版本库的网址&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>如果要指定不同的目录名，可以将目录名作为<code>git clone</code>命令的第二个参数。</p>
+<blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$ git clone &lt;版本库的网址&gt; &lt;本地目录名&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+</li>
+<li><p>git remote</p>
+<blockquote>
+<p> Git要求每个远程主机都必须指定一个主机名。<code>git remote</code>命令就用于管理主机名。 </p>
+<p> 不带选项的时候，<code>git remote</code>命令列出所有远程主机。 </p>
+<p> 使用<code>-v</code>选项，可以参看远程主机的网址。 </p>
+<p> 克隆版本库的时候，所使用的远程主机自动被Git命名为<code>origin</code>。如果想用其他的主机名，需要用<code>git clone</code>命令的<code>-o</code>选项指定。 </p>
+<p> <code>git remote show</code>命令加上主机名，可以查看该主机的详细信息。 </p>
+<p> <code>git remote add</code>命令用于添加远程主机。 </p>
+<p> <code>git remote rm</code>命令用于删除远程主机。 </p>
+<p> <code>git remote rename</code>命令用于远程主机的改名。 </p>
+</blockquote>
+</li>
+<li><p>git fetch</p>
+<blockquote>
+<p> 一旦远程主机的版本库有了更新（Git术语叫做commit），需要将这些更新取回本地，这时就要用到<code>git fetch</code>命令。 </p>
+</blockquote>
+</li>
+<li><p>git pull</p>
+</li>
+<li><p>git push</p>
+</li>
+</ul>
+<h2 id="GitHub-本地仓库如何同步到github-com"><a href="#GitHub-本地仓库如何同步到github-com" class="headerlink" title="GitHub: 本地仓库如何同步到github.com?"></a>GitHub: 本地仓库如何同步到github.com?</h2><p>commit to master</p>
+<p>push origin</p>
+<h2 id="github-com上仓库改名之后还能同步吗？"><a href="#github-com上仓库改名之后还能同步吗？" class="headerlink" title="github.com上仓库改名之后还能同步吗？"></a>github.com上仓库改名之后还能同步吗？</h2><p>依然可以</p>
+<p>即本地仓库同步到GitHub.com;在github.com建立一个仓库（默认同名，当然可以重命名）</p>
+<p>两端建立联系之后，关系就固定了，一旦删除任何一端，都不能再同步，网站端可改名，不影响，桌面仍待研究；</p>
+<p>目前的通式为：</p>
+<ul>
+<li>桌面端建立新仓库</li>
+<li>publish your repository to github(此时可重命名；不过不推荐)</li>
+<li>本地仓库内的改变可通过“commit to master”—&gt;push origin同步到网站。</li>
+</ul>
+<h2 id="网站端的内容能同步到本地端吗？"><a href="#网站端的内容能同步到本地端吗？" class="headerlink" title="网站端的内容能同步到本地端吗？"></a>网站端的内容能同步到本地端吗？</h2><p>事实证明可以。</p>
+<p>可能是“fetch origin”，或者”pull origin”</p>
+]]></content>
+  </entry>
 </search>
